@@ -1,0 +1,168 @@
+/*Inter*/
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-display: fallback;
+    src: url('../fonts/inter-300.ttf');
+}
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url('../fonts/inter-400.ttf');
+}
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 0;
+    font-display: fallback;
+    src: url('../fonts/inter-500.ttf');
+}
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-display: fallback;
+    src: url('../fonts/inter-600.ttf');
+}
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-display: fallback;
+    src: url('../fonts/inter-700.ttf');
+}
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-display: fallback;
+    src: url('../fonts/inter-800.ttf');
+}
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-display: fallback;
+    src: url('../fonts/inter-900.ttf');
+}
+/*Avenir Next Cyr*/
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 100;
+    font-display: fallback;
+    src: url('../fonts/AvenirNextCyr-Thin.ttf');
+}
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 200;
+    font-display: fallback;
+    src: url('../fonts/AvenirNextCyr-UltraLight.ttf');
+}
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-display: fallback;
+    src: url('../fonts/AvenirNextCyr-Light.ttf');
+}
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url('../fonts/AvenirNextCyr-Regular.ttf');
+}
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-display: fallback;
+    src: url('../fonts/AvenirNextCyr-Medium.ttf');
+}
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 600;
+    font-display: fallback;
+    src: url('../fonts/AvenirNextCyr-Demi.ttf');
+}
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-display: fallback;
+    src: url('../fonts/AvenirNextCyr-Bold.ttf');
+}
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 800;
+    font-display: fallback;
+    src: url('../fonts/AvenirNextCyr-Heavy.ttf');
+}
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    font-style: italic;
+    font-weight: 100;
+    font-display: fallback;
+    src: url('../fonts/AvenirNextCyr-ThinItalic.ttf');
+}
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    font-style: italic;
+    font-weight: 200;
+    font-display: fallback;
+    src: url('../fonts/AvenirNextCyr-UltraLightIt.ttf');
+}
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    font-style: italic;
+    font-weight: 300;
+    font-display: fallback;
+    src: url('../fonts/AvenirNextCyr-LightItalic.ttf');
+}
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    font-style: italic;
+    font-weight: 400;
+    font-display: fallback;
+    src: url('../fonts/AvenirNextCyr-Italic.ttf');
+}
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    font-style: italic;
+    font-weight: 500;
+    font-display: fallback;
+    src: url('../fonts/AvenirNextCyr-MediumItalic.ttf');
+}
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    font-style: italic;
+    font-weight: 600;
+    font-display: fallback;
+    src: url('../fonts/AvenirNextCyr-DemiItalic.ttf');
+}
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    font-style: italic;
+    font-weight: 750;
+    font-display: fallback;
+    src: url('../fonts/AvenirNextCyr-BoldItalic.ttf');
+}
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    font-style: italic;
+    font-weight: 800;
+    font-display: fallback;
+    src: url('../fonts/AvenirNextCyr-HeavyItalic.ttf');
+}
+@font-face {
+    font-family: 'AvantGardeGothic';
+    font-display: swap;
+    src: url('../fonts/AvantGardeGothicC-Demi.otf');
+}

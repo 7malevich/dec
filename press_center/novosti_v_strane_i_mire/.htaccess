@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  # Удаляем index.php из адреса
+  RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s(.*)/index.php/?([^\ \?]*) [NC]
+  # Не применяем к авторизации, оформлению заказа, админке и др
+  # RewriteCond %{REQUEST_URI} !/bitrix/.* [NC]
+  # RewriteCond %{REQUEST_URI} !/magazin/.* [NC]
+  # RewriteCond %{REQUEST_URI} !/dalsbyt/private_clients/service/queue/.* [NC]
+  # RewriteCond %{REQUEST_URI} !/amursbyt/private_clients/pokazaniya/.* [NC]
+  RewriteRule ^ %1/%2 [R=301,L]
+</IfModule>
+

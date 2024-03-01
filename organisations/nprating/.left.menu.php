@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"2021", 
+		"2021.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"2018", 
+		"2018.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"2017", 
+		"2017.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"2016", 
+		"2016.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"2015", 
+		"2015.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"2014", 
+		"2014.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+);
+?>

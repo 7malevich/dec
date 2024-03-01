@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Амурск";
+$arDirProperties = array(
+
+);
+?>

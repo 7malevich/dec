@@ -1,0 +1,26 @@
+<?
+error_reporting(E_ALL);
+define("AUTH_404","Y");
+$arrImage = array("jpg","bmp","jpeg","jpe","gif","png");
+$arrPath = pathinfo($_SERVER["REQUEST_URI"]);
+if (isset($arrPath["extension"]) && in_array($arrPath["extension"],$arrImage)) die();
+
+$params = substr($_SERVER["REQUEST_URI"], strpos($_SERVER["REQUEST_URI"], "?")+1);
+parse_str($params, $_GET);
+parse_str($params, $v);
+$GLOBALS += $v;
+parse_str($params, $HTTP_GET_VARS);
+
+//Файл включается, когда необходимо обеспечить правильный приход
+//посетителей по ссылкам со старого сайта.
+//require($_SERVER["DOCUMENT_ROOT"]."/incoldpages.php");
+
+if (isset($_SERVER["REDIRECT_STATUS"]) && $_SERVER["REDIRECT_STATUS"]=="404") define("ERROR_404","Y");
+
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("404 - HTTP not found");
+?>
+<?$APPLICATION->IncludeFile("main/map/default.php");?>
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
+?>

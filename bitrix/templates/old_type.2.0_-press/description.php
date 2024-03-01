@@ -1,0 +1,1 @@
+<?$arTemplate = Array("NAME"=>"ДЭК 2.0 - главный - пресс-центр", "DESCRIPTION"=>"");?>

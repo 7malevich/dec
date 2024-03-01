@@ -1,0 +1,1 @@
+<?$arTemplate = Array("NAME"=>"тест тени 1", "DESCRIPTION"=>"");?>

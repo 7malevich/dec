@@ -1,0 +1,3 @@
+@media print {
+.header, .breadcrumb, .footer, .backoffice_controls, .main-mobile { display:none !important }
+}

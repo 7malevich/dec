@@ -1,0 +1,38 @@
+User-Agent: Slurp
+Disallow: /
+
+User-Agent: msnbot
+Disallow: /
+
+User-agent: Yandex
+Clean-param: tags&q&where&how
+Clean-param: r1&referer1&referrer1&r2&referer2&referrer2&r3&referer3&referrer3
+Clean-param: PAGEN_2&pagen_2&PAGEN_3&PAGEN_4&PAGEN_5&PAGEN_6&PAGEN_7&PAGEN_8&PAGEN_9
+Clean-param: SHOWALL_2&SHOWALL_3&SHOWALL_4&SHOWALL_5&SHOWALL_6&SHOWALL_7
+Clean-param: print&sphrase_id&f
+Clean-param: mpi
+
+User-Agent: *
+Disallow: /bitrix/
+Disallow: /admin/
+Disallow: /upload/
+Disallow: /img/
+Disallow: /press_center/novosti_v_strane_i_mire/
+Disallow: /amursbyt/private_clients/receipts/email_ok.php
+Disallow: /yakutiya/private_clients/receipts/email_ok.php
+Disallow: /nerungri/private_clients/receipts/email_ok.php
+Disallow: /eaosbyt/private_clients/receipts/email_ok.php
+Disallow: /khabsbyt/private_clients/receipts/email_ok.php
+Disallow: /dalsbyt/private_clients/receipts/email_ok.php
+Disallow: /sakhalin/private_clients/receipts/email_ok.php
+Disallow: /kamchatka/private_clients/receipts/email_ok.php
+Disallow: /amursbyt/private_clients/priemnaya/ok.php
+Disallow: /yakutiya/private_clients/priemnaya/ok.php
+Disallow: /nerungri/private_clients/priemnaya/ok.php
+Disallow: /eaosbyt/private_clients/priemnaya/ok.php
+Disallow: /khabsbyt/private_clients/priemnaya/ok.php
+Disallow: /dalsbyt/private_clients/priemnaya/ok.php
+Disallow: /sakhalin/private_clients/priemnaya/ok.php
+Disallow: /kamchatka/private_clients/priemnaya/ok.php
+
+Sitemap: https://www.dvec.ru/sitemap.xml

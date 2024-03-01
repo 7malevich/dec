@@ -1,0 +1,1 @@
+<div style="width:1364px; height:4960px"><img src="v4a.jpg" alt="гоэрло-95" /></div>

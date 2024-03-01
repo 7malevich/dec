@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^212\.91\.198\.19$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^188\.128\.61\.19$ [NC,OR]
+RewriteRule ^(.*)$ https://www.dvec.ru/$1 [L,R=301]
+</IfModule>

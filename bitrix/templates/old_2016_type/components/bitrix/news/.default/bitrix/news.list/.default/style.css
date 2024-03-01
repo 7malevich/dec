@@ -1,0 +1,9 @@
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:6px 15px 32px 0;
+}
+.news-date-time {
+	font: 400 11px/11px Roboto; 
+	color: #5f5f5f;
+}

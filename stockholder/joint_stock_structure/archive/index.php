@@ -1,0 +1,39 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Структура акционерного капитала ПАО «ДЭК» - архив");
+?><a href="20230630.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 30.06.2023 г.</span></a><br>
+<a href="20230331.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.03.2023 г.</span></a><br>
+<a href="20221231.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.12.2022 г.</span></a><br>
+<a href="20220930.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 30.09.2022 г.</span></a><br>
+<a href="20220630.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 30.06.2022 г.</span></a><br>
+<a href="20220331.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.03.2022 г.</span></a><br>
+<a href="20211231.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.12.2021 г.</span></a><br>
+<a href="20210930.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 30.09.2021 г.</span></a><br>
+<a href="20210630.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 30.06.2021 г.</span></a><br>
+<a href="20201231.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.12.2020 г.</span></a><br>
+<a href="20201031.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.10.2020 г.</span></a><br>
+<a href="20200930.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 30.09.2020 г.</span></a><br>
+<a href="20200630.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 30.06.2020 г.</span></a><br>
+<a href="20191231.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.12.2019 г.</span></a><br>
+<a href="20190930.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 30.09.2019 г.</span></a><br>
+<a href="20181231.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.12.2018 г.</span></a><br>
+<a href="20180930.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 30.09.2018 г.</span></a><br>
+<a href="20180630.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 30.06.2018 г.</span></a><br>
+<a href="20171024.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 24.10.2017 г.</span></a><br>
+<a href="20170531.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.05.2017 г.</span></a><br>
+<a href="20160630.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 30.06.2016 г.</span></a><br>
+<a href="20151231.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.12.2015 г.</span></a><br>
+<a href="20150930.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 30.09.2015 г.</span></a><br>
+<a href="20141009.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 09.10.2014 г.</span></a><br>
+<a href="20140530.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 30.05.2014 г.</span></a><br>
+<a href="20140331.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.03.2014 г.</span></a><br>
+<a href="20131231.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.12.2013 г.</span></a><br>
+<a href="20121231.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.12.2012 г.</span></a><br>
+<a href="20111231.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.12.2011 г.</span></a><br>
+<a href="20110930.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 30.09.2011 г.</span></a><br>
+<a href="20101231.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.12.2010 г.</span></a><br>
+<a href="20091231.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.12.2009 г.</span></a><br>
+<a href="20091031.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.10.2009 г.</span></a><br>
+<a href="20081231.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.12.2008 г.</span></a><br>
+<a href="20080531.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 31.05.2008 г.</span></a><br>
+<a href="20070930.php" class="p-3 mb-2 btn btn-light text-decoration-none"><span class="font-weight-bold">По состоянию на 30.09.2007 г.</span></a><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

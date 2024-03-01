@@ -1,0 +1,60 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Физическим лицам", 
+		"/eaosbyt/private_clients/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Исполнителям ком.услуг", 
+		"/iku/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Акционерам", 
+		"/stockholder/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Компания", 
+		"/company/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Юридическим лицам", 
+		"/eaosbyt/organisations/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Рынок электроэнергии", 
+		"/electric_market/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Закупки", 
+		"/customs/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Пресс-центр", 
+		"/press_center/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

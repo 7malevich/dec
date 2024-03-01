@@ -1,0 +1,134 @@
+/* CSS Document */
+[class|="workload"] {
+display: inline-block;
+position:relative;
+vertical-align: middle;
+margin: 0 0 4px 0;
+padding: 3px 5px;
+border-radius: 4px;
+border-style: solid;
+border-width: 1px;
+border-collapse: collapse;
+box-sizing: border-box;
+font-size: .875rem;
+text-align: center;
+cursor: help;
+}
+.workload-d-1 {
+min-width: 35px;
+color: #040404;
+background-color: #71f782;
+border-color: #62d570;
+}
+.workload-d-2 {
+min-width: 35px;
+color: #0f0f0f;
+background-color: #b2f9b9;
+border-color: #ace3b2;
+}
+.workload-d-3 {
+min-width: 35px;
+color: #484848;
+background-color: #dbf9dd;
+border-color: #cbe3ce;
+}
+.workload-d-4 {
+min-width: 35px;
+color: #e89a82;
+background-color: #f5f9fb;
+border-color: #e89a82;
+}
+.workload-h-1 {
+min-width: 25px;
+color: #040404;
+background-color: #71f782;
+border-color: #62d570;
+}
+.workload-h-2 {
+min-width: 25px;
+color: #0f0f0f;
+background-color: #b2f9b9;
+border-color: #ace3b2;
+}
+.workload-h-3 {
+min-width: 25px;
+color: #484848;
+background-color: #dbf9dd;
+border-color: #cbe3ce;
+}
+.workload-h-4 {
+min-width: 25px;
+color: #e89a82;
+background-color: #f5f9fb;
+border-color: #e89a82;
+}
+.workload-d-1:before {
+content: "Минимальное время ожидания";
+background-color: #71f782;
+}
+.workload-d-2:before {
+content: "Среднее время ожидания";
+background-color: #b2f9b9;
+}
+.workload-d-3:before {
+content: "Максимальное время ожидания";
+background-color: #dbf7de;
+}
+.workload-d-4:before {
+content: "Нерабочий день";
+background-color: #f5f9fb;
+}
+.workload-h-1:before {
+content: "Минимальное время ожидания";
+background-color: #71f782;
+}
+.workload-h-2:before {
+content: "Среднее время ожидания";
+background-color: #b2f9b9;
+}
+.workload-h-3:before {
+content: "Максимальное время ожидания";
+background-color: #dbf7de;
+}
+.workload-h-4:before {
+content: "Нерабочий час";
+background-color: #f5f9fb;
+}
+[class|="workload"]:before {
+    display: none;
+    position: absolute;
+    color: #040404;
+    padding: 6px 8px;
+    font-size: 14px;
+    line-height: 1.4;
+    min-width: 100px;
+    text-align: center;
+    border-radius: 4px;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 100%;
+    margin-bottom: 6px;
+}
+[class|="workload"]:after {
+    content: '';
+    display: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    left: 50%;
+    margin-left: -6px;
+    bottom: 100%;
+    border-width: 6px 6px 0;
+    border-top-color: #346080;
+}
+/* Show the tooltip when hovering */
+[class|="workload"]:hover:before,
+[class|="workload"]:hover:after {
+    display: block;
+    z-index: 50;
+}

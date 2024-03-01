@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Фотобанк";
+$arDirProperties = Array(
+
+);
+?>

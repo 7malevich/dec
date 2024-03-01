@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Отчетность";
+$arDirProperties = Array(
+
+);
+?>

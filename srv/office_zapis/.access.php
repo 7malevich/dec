@@ -1,0 +1,9 @@
+<?
+$PERM["local_stats.php"]["23"]="R";
+$PERM["local_stats.php"]["2"]="D";
+$PERM["local_timetable.php"]["23"]="R";
+$PERM["local_timetable.php"]["2"]="D";
+$PERM["index.php"]["30"]="R";
+$PERM["index.php"]["28"]="R";
+$PERM["index.php"]["2"]="D";
+?>

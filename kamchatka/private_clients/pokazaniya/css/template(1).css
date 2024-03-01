@@ -1,0 +1,153 @@
+/*****************************/
+/*** Core html setup stuff ***/
+/*****************************/
+
+html {
+  height: 100%;
+  margin-bottom: 1px;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+body  {
+	font-family: Helvetica,Arial,sans-serif;
+	line-height: 1.3em;
+	margin: 5px 0px 0px 0px;
+	font-size: 12px;
+	color: #333;
+	
+}
+a:link, a:visited {
+	text-decoration: none;
+	font-weight: normal;
+	color:#000099;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: normal;
+	color:#990000;
+}
+/* INPUT */
+input.button { cursor: pointer; border:1px solid #444; }
+input.button:hover { cursor: pointer; border:1px solid #444; background-color:#E8E8E8 }
+
+ input.exit {background-color:#fff; height:30px; MARGIN:2PX 0PX 2PX 0PX; border:1px solid #ccc;
+  text-align:center; width:95%; padding:5px 2px 4px 2px; color:#ff0000; font-size:9px; text-transform: uppercase}
+
+ input.exit:hover { cursor:hand;  background-color:#fff; border:1px solid #ff0000;}
+
+input {border:1px solid #ccc;}
+input.loginput {width:150px;}
+input.edit_profile, select.edit_profile {width:250px;}
+div.edit_profile_changed { width:240px; color:#777; margin-top:5px; padding-left:20px; background:url(../images/await.gif) no-repeat;}
+
+#info_gray {color:#777;}
+ 
+ 
+  div.loginbuttons3 {background-color:#fff; MARGIN:2PX 0PX 2PX 0PX; border:1px solid #ccc;
+  text-align:center; width:95%; padding:5px 2px 4px 2px; font-size:9px; font-weight:bold; text-transform: uppercase}
+ 
+ div.loginbuttons3:hover { background-color:#fff; border:1px solid #990000;}
+ 
+ div.login {margin-top:2px;background-color:#fff; border:1px solid #ccc; text-align:center; width:150px; padding:5px 4px 4px 4px; font-size:10px; font-weight:bold;}
+ div.login:hover {cursor:hand; background-color:#fff; border:1px solid #990000; text-align:center; width:150px; padding:5px 4px 4px 4px; font-size:10px; font-weight:bold;}
+ div.loginbuttons {background-color:#fff; MARGIN:2PX 0PX 2PX 0PX; border:1px solid #ccc;
+  text-align:center; width:95%; padding:5px 2px 4px 2px; font-size:9px; font-weight:bold; text-transform: uppercase}
+ 
+ div.loginbuttons:hover { cursor:hand;  background-color:#fff; border:1px solid #990000;}
+ 
+ div.loginbuttons2 {background-color:#fff; MARGIN:2PX 0PX 2PX 0PX; border:2px solid #990000;
+  text-align:center; width:95%; padding:5px 2px 4px 2px; font-size:9px; font-weight:bold; text-transform: uppercase}
+
+div.loginbuttons2:hover { cursor:hand;  background-color:#fff; border:1px solid #990000;}
+ 
+table.logintable td:hover {background-color:#f2f2f2;  }
+
+
+
+#cabinet_top_menu_path { padding:10px;}
+#cabinet_top_menu_path a:link,#cabinet_top_menu_path a:visited { font-size:9px; font-weight:bold; text-transform: uppercase;}
+
+#cabinet_top_menu_path1 { padding:10px;}
+#cabinet_top_menu_path1 a:link  { font-weight:bold;} 
+#cabinet_top_menu_path1 a:visited { font-weight:bold; color:#777;}
+
+
+
+/*  tooltips */
+.tooltip {
+	background-color:#085C98;
+	border:1px solid #ccc;
+	padding:10px 15px;
+	width:200px;
+	display:none;
+	color:#fff;
+	text-align:left;
+	font-size:12px;
+z-index:3;
+	/* outline radius for mozilla/firefox only */
+	-moz-box-shadow:0 0 10px #000;
+	-webkit-box-shadow:0 0 10px #000;
+}
+
+/* error container tooltip */
+.error {
+	height:15px;
+	background-color:none;
+	font-size:11px;
+	border:0px solid #990000;
+	padding:2px 10px;
+	color:#990000;
+	margin-left:-10px;
+	margin-top:-2px;
+	position:absolute; 
+
+}
+.ok {
+	height:15px;
+	background-color:none;
+	font-size:11px;
+	border:0px solid #990000;
+	padding:2px 10px;
+	color:#006600;
+	 
+	margin-top:-2px;
+	position:absolute; 
+	font-weight:bold;
+
+}
+
+#system-message dd.message ul { margin-left:100px; list-style:none; padding:10px; background: #fff url(../images/notice-info.png) 5px 5px no-repeat;border: 1px solid #DE7A7B; margin:0px; padding-left: 40px; text-indent:0px;}
+
+/* System Error Messages */
+#system-message dd.error ul {  list-style:none; padding:10px; color: #c00; background: #fff url(../images/notice-alert.png)  5px 5px  no-repeat; border: 1px solid #DE7A7B; margin:0px; padding-left: 40px; text-indent:0px;}
+
+/* System Notice Messages */
+#system-message dd.notice ul {  list-style:none;  padding:10px; color: #c00; background: #fff url(../images/notice-note.png) 4px center no-repeat; border: 1px solid #F0DC7E; margin:0px; padding-left: 40px; text-indent:0px;}
+
+div.notice { width:90%;   padding:10px; color: #c00; background: #fff url(../images/notice-note.png) 4px center no-repeat; border: 1px solid #F0DC7E; margin:0px; padding-left: 40px; text-indent:0px;}
+
+.default{background-color: #CCC; width:250px}
+.weak{background-color: #FF5353;width:250px}
+.strong{background-color: #FAD054;width:250px}
+.stronger{background-color: #93C9F4; width:250px}
+.strongest{background-color: #B6FF6C;width:250px}
+
+ 
+table.header { background:url('../images/header.jpg') no-repeat; height:209px;}
+td.sv {width:10px; margin-top:100px; background:url('../images/sv.gif') 0px 100px no-repeat; min-height:10px; height:100%;}
+table.footer { background:url('../images/footer.jpg') top left no-repeat; height:180px;}
+
+ 
+table.restorepass { margin-top:20px;} 
+table.restorepass td { padding-top:20px;} 
+  
+  hr { color: #555; background-color:#555; border:0px none; height:1px; clear:both;}
+ 
+ 
+ 
+ 

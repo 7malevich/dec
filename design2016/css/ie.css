@@ -1,0 +1,43 @@
+/* body{
+	background: url('/images/newdesign/site_background_ie.gif') repeat-y scroll center center #ffffff;
+} */
+
+b, strong {
+	font-weight: 700;
+}
+
+.header{
+	padding-bottom: 15px;
+}
+
+
+.bottomBanners a{
+	display: block;
+	float: left;
+	padding-top: 20px;
+	height: 120px;
+}
+
+.topSection .search .row{
+	top: 5px;
+}
+
+.topSection .search .input-bg{
+	margin: 0;
+}
+
+.corners + .inner{
+	margin-bottom: 0;
+}
+
+.startContent .left.col .inner{
+	height: 445px;
+}
+
+.table-data{
+	margin-bottom: 0;
+}
+
+.stoppers H2{
+	padding-top: 0;
+}

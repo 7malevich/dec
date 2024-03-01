@@ -1,0 +1,194 @@
+/*
+Меню выбора региона **********************************************************************
+*/
+
+.region_menu {
+	position:absolute;
+	left:-20px;
+	background-image:url(/common/img/head/terbank_menu3.png);
+	background-repeat:no-repeat;
+	width:268px;
+	height:322px;
+	z-index:35;
+
+}
+.region_menu_content {
+padding-top:10px;
+padding-left:25px;
+}
+
+#r_menu {
+	width: 210px;
+	height: 260px;
+	overflow: auto;
+	float: left;
+	z-index:35;
+}
+.region_item{
+	height:25px;
+	border-bottom: 1px solid #eaeae9;
+	cursor:pointer;
+	padding:0 5px;
+}
+.region_item_selected{
+	background-color:#a2a2a2;
+	color:white;
+	padding:0 5px;
+}
+.region_item_hover{
+	background-color:#a2a2a2;
+	color:white;
+	padding:0 5px;
+}
+
+.region_item span {
+	position:relative;
+	top:5px;
+	cursor:pointer;
+}
+.regionDropDown {
+	width:205px;
+}
+.regionDropDown input{
+	font-size:10px;
+	width:190px;
+	float:left;
+	margin-top:5px;
+	font-size:11px;
+	padding-left: 10px;
+	/* padding-top:2px; */
+	background: url(/common/img/head/dropdown_roudleft.png) no-repeat;
+	border:0;
+	height:17px;
+	color:#777777;
+}
+.regionDropDown1 {
+}
+.regionDropDown1 input{
+	font-family: Arial;
+	background: url(/common/img/head/dropdown2_roudleft1.png) no-repeat;
+	padding-top:1px;
+        margin:-30px 0 0 59px;
+	border:0;
+	height:22px;
+	color:#777777;
+}
+.regionDropDown2 {
+	width:205px;
+}
+.regionDropDown2 input{
+	font-family: Arial;
+	background: url(/common/img/head/dropdown2_roudleft.png) no-repeat;
+	padding-top:1px;
+	border:0;
+	height:17px;
+	color:#777777;
+}
+.regionDropDown img.dropbtn{
+	position:relative;
+	cursor:pointer;
+	margin-top:5px;
+	margin-left:-15px;
+	border:0;
+}
+.regionDropDown img.dropbtn1{
+	position:relative;
+	cursor:pointer;
+	margin:5px 0 0 166px;
+	border:0;
+}
+.regionDropDown img.dropbtn2{
+	position:relative;
+	cursor:pointer;
+	margin-top:5px;
+	margin-left:-15px;
+	border:0;
+}
+
+#select_region_dialog {
+	font-family: Arial;
+}
+
+#select_region_dialog p{
+	color:#636363;
+	font-size:12px;
+}
+#select_region_dialog h1 {
+	font-size:16px;
+	font-weight:normal;
+	width:310px;
+	margin-left:280px;
+	color:#5c5c5c;
+}
+#select_region_dialog p.regionch {
+	margin:10px 0 10px 280px;
+	width:360px;
+}
+#regionDialogSelect {
+	font-family: Arial;
+	margin:0px 0 0 250px;
+}
+#select_region_dialog p.regioninf {
+	margin:15px 0 0 280px;
+	width:350px;
+}
+#select_region_dialog .logo {
+	width:125px;
+	height:100px;
+	background:url(/images/newdesign/logo.png) no-repeat 0 0;
+	margin:70px 0 0 60px;
+position:absolute;
+}
+.w_button_img{
+	margin:5px 0 0 525px;
+	cursor:pointer;
+}
+#select_region_dialog .button_submit {
+	width:auto!important;
+	margin:10px 0 0 525px;
+}
+	#select_region_dialog .button_submit .btn_l{
+		#background:url(/common/css/ui-lightness/images/gr_btn_left_w.gif) no-repeat 0 0;
+		padding-left:11px;
+		cursor:pointer;
+	}
+		#select_region_dialog .button_submit .btn_c{
+				#background:url(/common/css/ui-lightness/images/gr_btn_center_w.gif) repeat-x 0 0;
+				margin:0;
+				padding-left:0;
+				font-style:normal;
+				margin:0;
+				color:#FFF;
+				font-family:Arial;
+				font-size:11px;
+				cursor:pointer;
+		}
+
+			#select_region_dialog .button_submit .btn_r{
+				#background:url(/common/css/ui-lightness/images/gr_btn_right_w.gif) no-repeat 100% 0;
+				width:11px;
+				height:20px;
+				cursor:pointer;
+			}
+
+/*
+Отображение региона справа вверху***************************************************************
+эти же стили [if lt IE 9] - в шаблонах
+*/
+
+.region_top_menu_name {
+    margin:8px 0 0 70px; 
+    float: left; 
+    position:absolute; 
+    z-index:999;
+/*    color:#f79b1c;
+    color:#ffbb5a;    */
+    font-weight:bold;
+}
+
+.region_top_menu_btn {
+    border: 0 none;
+    cursor: pointer;
+    margin: 5px 0 0 166px;
+    position: relative;
+}

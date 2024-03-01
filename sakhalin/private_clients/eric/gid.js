@@ -1,0 +1,3 @@
+$( ".spanhover" ).tooltip({
+      track: true
+    });

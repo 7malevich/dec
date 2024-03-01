@@ -1,0 +1,184 @@
+/* главная **********************************************
+*/
+
+div#start_newsblock_highlight {
+	float:left; 
+	width:630px; 
+	height:244px; 
+	padding:20px 24px 16px 25px;
+	border-right: 1px solid #ebebeb;
+}
+
+div#start_newsblock_highlight h1 {
+	font:400 20px/23px 'Roboto Slab';
+	text-transform:none;
+	margin:6px 0 0 0;
+}
+
+/* div#start_newsblock_highlight a, div#start_newsblock_highlight a:link, div#start_newsblock_highlight a:visited {
+	color: #000000;
+	text-decoration: none; 
+}
+
+div#start_newsblock_highlight a:hover {
+	color: #000000;
+	background: none;
+	text-decoration: underline; 
+} */
+
+div#start_newslist {
+	float:left; 
+	width:639px; 
+	height:381px; 
+	padding:22px 16px 0 25px;
+	background:#f5f5f5;
+}
+
+div#start_newslist a, div#start_newslist a:link, div#start_newslist a:visited {
+	color: #000000;
+	text-decoration: none; 
+}
+
+div#start_newslist a:hover {
+	color: #000000;
+	background: none;
+	text-decoration: underline; 
+}
+
+div#start_brright {
+	float:right;
+	width:320px;
+	height:660px;
+	padding:20px 0 0 0;
+	border-bottom: 1px solid #ebebeb;
+}
+
+div#start_brright a, div#start_brright a:link, div#start_brright a:visited {
+	font:400 19px/20px 'Roboto Slab';
+	color: #000000;
+	text-decoration: none; 
+}
+
+div#start_brright a:hover {
+	color: #000000;
+	background: none;
+	text-decoration: underline; 
+}
+
+div#br_main_lower {
+	height:360px;
+	background: url('/images/design2016/start_pages/about_bg2a.jpg') repeat-x scroll center center #d0d0d0;
+}
+
+div.start_card {      /* карточки */
+	float:left; 
+	width:300px; 
+	height:277px; 
+	border:1px solid #dcdcdc;
+}
+
+/* главная - карта **********************************************
+*/
+div#map {
+	height:694px; 
+	clear:both; 
+	background: url('/images/design2016/start_pages/map_bg.gif') no-repeat scroll center center;	
+}
+div#mapgroup_filials {
+	 clear:both; 
+	 background: url('/images/design2016/start_pages/mapgroup_filials_bg_top.gif') top left no-repeat;
+}
+/* div.icon1 {
+	background-image: url("/images/design2016/start_pages/mapgroup_icon1.png");
+	background-repeat: no-repeat;
+	width: 10px;
+	height: 16px;
+	float:left; 
+	margin:2px 2px 0 0;
+} */
+div.map_filial_link {
+	float:left; 
+	padding:3px 4px; 
+	margin: 0 0 12px 0; 
+	height:18px; 
+	cursor: pointer;
+}
+div.map_filial_link>p {
+	border-bottom:1px dotted #e0e0e0; 
+	font:400 14px Roboto;
+}
+div.map_filial_bg_mid {
+	padding: 14px 23px 14px 15px; 
+	width:282px; 
+	background: url('/images/design2016/start_pages/mapgroup_filials_bg_mid.gif') top left repeat-y;
+}
+div.map_filial_bg_btm {
+	padding:0 0 0 15px; 
+	width:300px; 
+	height:37px; 
+	background: url('/images/design2016/start_pages/mapgroup_filials_bg_btm.gif') top left no-repeat; 
+	font:400 15px Roboto;
+}
+div.map_filial_bg_btm>a, div.map_filial_bg_btm>a:link, div.map_filial_bg_btm>a:visited{
+	display:block;
+	padding:4px 0 0 0;
+	color: #ffffff;
+	text-decoration: none;	
+}
+div.map_filial_bg_btm>a:hover{
+	text-decoration: underline;
+	background: none;	
+}
+/* div.icon2 {
+	float:right;
+	width: 65px;
+	height: 85px;
+	background-image: url("/images/design2016/start_pages/mapgroup_icon2b.png");
+	background-repeat: no-repeat;
+} */
+div#map_dzo_list {
+	padding:14px 23px 14px 15px; 
+	width:400px; 
+	background:url('/images/design2016/start_pages/map_dzo_list_mid.gif') top left repeat-y; 
+	font:400 14px/17px Roboto;
+}
+div#map_dzo_list li {
+    list-style: none; 
+    background: url('/images/design2016/spisok-marker.gif') no-repeat 0 6px; 
+    padding: 0 0 1px 14px; 
+}
+div.map_dzo_list_btm {
+	padding:0 0 0 15px; 
+	width:408px; 
+	height:37px; 
+	background: url('/images/design2016/start_pages/map_dzo_list_btm.gif') top left no-repeat; 
+	font:400 15px Roboto;
+}
+div.map_dzo_list_btm>a, div.map_dzo_list_btm>a:link, div.map_dzo_list_btm>a:visited{
+	display:block;
+	padding:4px 0 0 0;
+	color: #ffffff;
+	text-decoration: none;	
+}
+div.map_dzo_list_btm>a:hover{
+	text-decoration: underline;
+	background: none;	
+}
+
+
+/* главная - для мобильных **********************************************
+*/
+@media(max-width:1002px){
+  #br_main{
+  width:1002px;
+  }
+
+  #br_main_lower{
+  width:1002px;
+  }
+
+  footer{
+  margin:0 auto;
+  width: 1002px;
+  }
+}

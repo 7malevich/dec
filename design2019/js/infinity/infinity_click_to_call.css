@@ -1,0 +1,60 @@
+.infinity_dial_button {
+  position: absolute;
+  z-index: 50;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  cursor: pointer;
+  background-image: url('infinity_click_to_call_dial.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 128px;
+  height: 128px;
+}
+
+.infinity_drop_button {
+  position: absolute;
+  z-index: 50;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  cursor: pointer;
+  background-image: url('infinity_click_to_call_drop.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 128px;
+  height: 128px;
+}
+
+.infinity_dtmf_hidden {
+  position: absolute;
+  display: none;
+  z-index: 50;
+  top: 0px;
+  right: 0;
+  margin: 138px 10px 10px 10px;
+  width: 128px;
+}
+
+.infinity_dtmf_visible {
+  position: absolute;
+  display: block;
+  z-index: 50;
+  top: 0px;
+  right: 0;
+  margin: 138px 10px 10px 10px;
+  width: 128px;
+}
+
+.infinity_dtmf_visible table {
+  width: 100%;
+  text-align: center;
+}
+
+.infinity_dtmf_visible td {
+  text-align: center;
+  padding: 5px;
+  background-color: #bbb;
+  border-radius: 5px;
+  cursor: pointer;
+}

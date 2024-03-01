@@ -1,0 +1,22 @@
+/* CSS Document */
+
+body{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+	margin:0;
+	padding:0;
+    background: url('/goelro-95/img/background_center1.jpg') repeat-y scroll center center, url('/goelro-95/img/background_pattern1.jpg') repeat scroll center center #ffffff;
+}
+
+a, a:link{
+	color: #9D0000;
+	text-decoration: underline;
+}
+a:visited{
+	color: #8E2820;
+	text-decoration: underline;
+}
+a:hover{
+	color: #B12E01;
+}
