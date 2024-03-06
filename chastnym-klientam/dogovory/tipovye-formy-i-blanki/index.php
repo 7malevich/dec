@@ -22,9 +22,23 @@ $APPLICATION->SetTitle("Типовые формы и бланки");
     "",
     array(
         "AREA_FILE_SHOW" => "file",
-        "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/tipovye-formy-i-blanki.php"
+        "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/tipovye-formy-i-blanki--top.php"
     ),
     false);
 ?>
+
+<section class="block section-pt0">
+    <div class="container text-block">
+        <? $APPLICATION->IncludeComponent(
+            "bitrix:main.include",
+            "",
+            array(
+                "AREA_FILE_SHOW" => "file",
+                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/tipovye-formy-i-blanki.php"
+            ),
+            false);
+        ?>
+    </div>
+</section>
 
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

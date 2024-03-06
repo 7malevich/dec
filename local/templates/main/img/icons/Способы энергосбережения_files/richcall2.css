@@ -1,0 +1,51 @@
+:root{--themeColor:#e66a25;--themeLightColor:#ffe67f;--transparentThemeColor:#ffffffb9;--fontColor:#4a4a4a;background:none transparent}
+.rc.help-button{margin:0 auto;height:117px;width:120px;cursor:pointer;background-color:white;border-radius:60px;display:block;border:2px solid #ffcd00;border:2px solid var(--themeColor, #ffcd00);position:relative;-webkit-box-shadow:0 0 2px 1px rgba(127,127,127,0.5);box-shadow:0 0 2px 1px rgba(127,127,127,0.5)}
+.rc.help-button .unread-label{width:30px;height:30px;border-radius:50%;font-size:1em;color:white;line-height:30px;text-align:center;background:#ce0000;position:absolute;right:-10px;top:-5px}
+.rc.help-button .icon{
+	position:absolute;
+	text-decoration:inherit;
+	text-align:center;
+	vertical-align:middle;
+	speak:none;
+	font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;
+	font-size:0.1em;
+	display:inline-block;
+	opacity:1;
+	background-color:#fff;
+	width:0 !important;
+	height:0 !important;	
+	padding:.35em .28em;}
+.rc.help-button .icon:before{
+	content: '';
+	width:120px;
+	height:117px;
+	background:url(../img/videophone2.png) center center no-repeat;
+	position:absolute;
+	left:-3px;
+	top:-3px;}
+.rc.help-button .sonar:after{-webkit-animation:sonarEffect 20s ease-out 0s infinite;animation:sonarEffect 20s ease-out 0s infinite;}
+.rc.help-button .sonar2:after{-webkit-animation:sonarEffect 20s ease-out 10s infinite;animation:sonarEffect 20s ease-out 10s infinite;}
+.rc .sonar,.rc .sonar2{display:block;position:absolute;-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);background:transparent;border:none;width:100%;height:100%}
+.rc .sonar:after,.rc .sonar2:after{pointer-events:none;position:absolute;width:100%;height:100%;border-radius:50%;content:'';-webkit-box-sizing:content-box;box-sizing:content-box;top:0;left:0;padding:0;z-index:1;-webkit-box-shadow:0 0 0 1px rgba(127,127,127,0.5);box-shadow:0 0 0 1px rgba(127,127,127,0.5);opacity:0;-webkit-transform:scale(.9);-ms-transform:scale(.9);transform:scale(.9)}@-webkit-keyframes sonarEffect{0%{opacity:.2;-webkit-box-shadow:0 0 1px 0 #ffcd00;box-shadow:0 0 1px 0 #ffcd00;-webkit-box-shadow:0 0 1px 0 var(--themeColor, #ffcd00);box-shadow:0 0 1px 0 var(--themeColor, #ffcd00)}2%{opacity:.9;-webkit-box-shadow:0 0 4px 1px #ffcd00;box-shadow:0 0 4px 1px #ffcd00;-webkit-box-shadow:0 0 4px 1px var(--themeColor, #ffcd00);box-shadow:0 0 4px 1px var(--themeColor, #ffcd00)}4%{opacity:.5;-webkit-box-shadow:0 0 1px 0 #ffcd00;box-shadow:0 0 1px 0 #ffcd00;-webkit-box-shadow:0 0 1px 0 var(--themeColor, #ffcd00);box-shadow:0 0 1px 0 var(--themeColor, #ffcd00)}6%{-webkit-transform:scale(1.7);transform:scale(1.7);opacity:0}}
+@keyframes sonarEffect{0%{opacity:.2;-webkit-box-shadow:0 0 1px 0 #ffcd00;box-shadow:0 0 1px 0 #ffcd00;-webkit-box-shadow:0 0 1px 0 var(--themeColor, #ffcd00);box-shadow:0 0 1px 0 var(--themeColor, #ffcd00)}2%{opacity:.9;-webkit-box-shadow:0 0 4px 1px #ffcd00;box-shadow:0 0 4px 1px #ffcd00;-webkit-box-shadow:0 0 4px 1px var(--themeColor, #ffcd00);box-shadow:0 0 4px 1px var(--themeColor, #ffcd00)}4%{opacity:.5;-webkit-box-shadow:0 0 1px 0 #ffcd00;box-shadow:0 0 1px 0 #ffcd00;-webkit-box-shadow:0 0 1px 0 var(--themeColor, #ffcd00);box-shadow:0 0 1px 0 var(--themeColor, #ffcd00)}6%{-webkit-transform:scale(1.7);transform:scale(1.7);opacity:0}}
+div.rc-caption{
+	cursor:pointer;
+	margin-top:5px;
+	width:170px;
+	height:44px;
+	background:url(../img/vbutton3.png) center top no-repeat;
+}
+#rc_call_button {
+	height:200px;
+}
+@media (max-width:480px){
+	#rc_call_button {
+		height:78px;
+	}
+	#rc-help-button {
+		display: none;
+	}
+}

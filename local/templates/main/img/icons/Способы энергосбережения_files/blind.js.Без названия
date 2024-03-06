@@ -1,0 +1,279 @@
+$(document).ready(function() {
+    // проверяем наличия кук
+    if ($.cookie('version_class') !== undefined && $.cookie('version_class') != '') {
+        $('body').attr('class', $.cookie('version_class')); /*если есть грузим и показываем панель*/
+        $('.blind-version-block').show();
+        $('.slab-vid').hide();
+        $('.blind-version-block .ico').removeClass('sel');
+
+        setTimeout(function() {
+            if ( $('body').hasClass('noshow') ) {
+                $('.img-block .toggle').addClass('noshow');
+                $('.img-on').hide();
+                $('.img-off').show();
+                // $('.sound-block .toggle').addClass('soundOff');
+                // $('.sound-on').hide();
+                // $('.sound-off').show();
+            } else {
+                $('.img-block .toggle').removeClass('noshow');
+                $('.img-on').show();
+                $('.img-off').hide();
+                // $('.sound-block .toggle').removeClass('soundOff');
+                // $('.sound-on').show();
+                // $('.sound-off').hide();
+            }
+
+            // селекты панели
+            cl = $('body').attr('class').split(' ');
+            for (var i = cl.length - 1; i >= 0; i--) {
+                $('[data-size= \"'+cl[i]+'\"]').addClass('sel');
+            }
+
+            // добавление содержания alt
+            if ($('body').hasClass('noshow')) {
+                $('img').each(function () {
+                    wr = $(this).outerWidth(true);
+                    hr = $(this).outerHeight(true);
+                    $(this).after($('<span class="alt">').html($(this).attr('alt')).width(wr).height(hr));
+                });
+
+                $('.partners-slider a').each(function() {
+                    $(this).text($(this).attr('title'));
+                });
+
+                $('.b-share__handle').each(function() {
+                    $(this).find('.b-share-icon').text($(this).attr('data-service'));
+                });
+            } else {
+                $('.alt').remove();
+                $('.partners-slider a').text('');
+                $('.b-share-icon').text('');
+            }
+        }, 100);
+    } else {
+        $('.blind-version-block').hide();
+        $('.slab-vid').show();
+    }
+    
+    $('.blind-version-block .reset').click(function() {
+        // $('body').removeClass('blackwhite whiteblack blue brown times noshow s14 s16 s18 w1 w2 w3 arial showimg soundOn soundOff');
+        $('body').removeClass('blackwhite whiteblack blue brown times noshow s14 s16 s18 w1 w2 w3 arial showimg');
+        $('.wrapper').removeClass('noshow');
+        $('.blind-version-block').hide();
+        $('.slab-vid').show();
+        $('.impaired').removeClass('hov');
+        $.cookie('version_class', '', { path: '/' }); // очистка кук
+        $('.alt').remove();
+        $('span.ico').removeClass('sel');
+        $('span.ico:nth-child(2)').addClass('sel');
+
+        if ($('.icon404wrap').length > 0) {
+            $('body').addClass('page404');
+        } else {
+            $('body').removeClass('page404');
+        }
+
+        // responsiveVoice.speak("Обычная версия сайта", "Russian Female");
+    });
+
+    $('.impaired').click(function() {
+        $(this).addClass('hov');
+        $('.blind-version-inner').removeClass('go');
+        $('.blind-version-block').removeClass('go');
+        // responsiveVoice.speak("Версия сайта для слабовидящих", "Russian Female");
+
+        setTimeout(function() {
+            // $('body').addClass('whiteblack s14 w1 arial showimg soundOn');
+            $('body').addClass('whiteblack s14 w1 arial showimg');
+            $('.blind-version-block').show(0);
+            $('.slab-vid').hide();
+            saveCook();
+        }, 1100);
+
+        return false
+    });
+
+    $('.blind-version-block .ico').click(function() {
+        $(this).parent().find('.ico').removeClass('sel');
+        $(this).addClass('sel');
+
+        if ($('.icon404wrap').length > 0) {
+            $('body').addClass('page404');
+        } else {
+            $('body').removeClass('page404');
+        }
+    });
+
+    $('.blind-version-block .img-block').click(function() { // изображения
+        $(this).find('.toggle').toggleClass('noshow');
+        $(this).find('.toggle b').toggle();
+        $('body').toggleClass('noshow');
+        $('body').toggleClass('showimg');
+        saveCook();
+
+        // добавление содержания alt
+        if ($('body').hasClass('noshow')) {
+            $('img').each(function () {
+                wr = $(this).outerWidth(true);
+                hr = $(this).outerHeight(true);
+                $(this).after($('<span class="alt">').html($(this).attr('alt')).width(wr).height(hr));
+            });
+
+            $('.partners-slider a').each(function() {
+                $(this).text($(this).attr('title'));
+            });
+
+            $('.b-share__handle').each(function() {
+                $(this).find('.b-share-icon').text($(this).attr('data-service'));
+            });
+        } else {
+            $('.alt').remove();
+            $('.partners-slider a').text('');
+            $('.b-share-icon').text('');
+        }
+
+        if ($('.icon404wrap').length > 0) {
+            $('body').addClass('page404');
+        } else {
+            $('body').removeClass('page404');
+        }
+
+        /* if ($('body').hasClass('soundOn')) {
+            if ($('body').hasClass('noshow')) {
+                responsiveVoice.speak("Изображения выключены", "Russian Female");
+            } else if ($('body').hasClass('showimg')) {
+                responsiveVoice.speak("Изображения включены", "Russian Female");
+            }
+        } */
+    });
+
+    $('.blind-version-block .color-block .ico').on('click', function() { // цвет
+        sclass = $(this).data('size');
+        cl = $('body').attr('class').split(' ');
+        $('body').attr('class', cl[0]+' '+sclass+' '+cl[2]+' '+cl[3]+' '+cl[4]+' '+cl[5]);
+        saveCook();
+
+        if ($('.icon404wrap').length > 0) {
+            $('body').addClass('page404');
+        } else {
+            $('body').removeClass('page404');
+        }
+
+        /* var responsiveVoiceText;
+
+        if (sclass == 'whiteblack') {
+            responsiveVoiceText = 'черным по белому';
+        } else if (sclass == 'blackwhite') {
+            responsiveVoiceText = 'белым по черному';
+        } else if (sclass == 'blue') {
+            responsiveVoiceText = 'темно-синим по голубому';
+        } else if (sclass == 'brown') {
+            responsiveVoiceText = 'зеленым по темно-коричневому';
+        }
+
+        if ($('body').hasClass('soundOn')) {
+            responsiveVoice.speak("Цвет сайта: " + responsiveVoiceText, "Russian Female");
+        } */
+    });
+
+    $('.blind-version-block .size-block .ico').on('click', function() { // размер
+        sclass = $(this).data('size');
+        cl = $('body').attr('class').split(' ');
+        $('body').attr('class', cl[0]+' '+cl[1]+' '+sclass+' '+cl[3]+' '+cl[4]+' '+cl[5]);
+        saveCook();
+
+        if ($('.icon404wrap').length > 0) {
+            $('body').addClass('page404');
+        } else {
+            $('body').removeClass('page404');
+        }
+
+        /* var responsiveVoiceText;
+
+        if (sclass == 's14') {
+            responsiveVoiceText = '18 пунктов';
+        } else if (sclass == 's16') {
+            responsiveVoiceText = '20 пунктов';
+        } else if (sclass == 's18') {
+            responsiveVoiceText = '24 пункта';
+        }
+
+        if ($('body').hasClass('soundOn')) {
+            responsiveVoice.speak("Размер шрифта: " + responsiveVoiceText, "Russian Female");
+        } */
+    });
+
+    $('.blind-version-block .interval-block .ico').on('click', function() { // интервал
+        sclass = $(this).data('size');
+        cl = $('body').attr('class').split(' ');
+        $('body').attr('class', cl[0]+' '+cl[1]+' '+cl[2]+' '+sclass+' '+cl[4]+' '+cl[5]);
+        saveCook();
+
+        if ($('.icon404wrap').length > 0) {
+            $('body').addClass('page404');
+        } else {
+            $('body').removeClass('page404');
+        }
+
+        /* var responsiveVoiceText;
+
+        if (sclass == 'w1') {
+            responsiveVoiceText = 'обычный';
+        } else if (sclass == 'w2') {
+            responsiveVoiceText = 'средний';
+        } else if (sclass == 'w3') {
+            responsiveVoiceText = 'большой';
+        }
+
+        if ($('body').hasClass('soundOn')) {
+            responsiveVoice.speak("Интервал между буквами: " + responsiveVoiceText, "Russian Female");
+        } */
+    });
+    
+    $('.blind-version-block .font-block .ico').on('click', function() { // шрифт
+        sclass = $(this).data('size');
+        cl = $('body').attr('class').split(' ');
+        $('body').attr('class', cl[0]+' '+cl[1]+' '+cl[2]+' '+cl[3]+' '+sclass+' '+cl[5]);
+        saveCook();
+
+        if ($('.icon404wrap').length > 0) {
+            $('body').addClass('page404');
+        } else {
+            $('body').removeClass('page404');
+        }
+
+        /* var responsiveVoiceText;
+
+        if (sclass == 'arial') {
+            responsiveVoiceText = 'без засечек';
+        } else if (sclass == 'times') {
+            responsiveVoiceText = 'с засечками';
+        }
+
+        if ($('body').hasClass('soundOn')) {
+            responsiveVoice.speak("Шрифт: " + responsiveVoiceText, "Russian Female");
+        } */
+    });
+
+    /* $('.blind-version-block .sound-block').on('click', function() {
+        $('body').toggleClass('soundOn');
+        $('body').toggleClass('soundOff');
+        $(this).find('.toggle').toggleClass('soundOff');
+        $(this).find('.toggle b').toggle();
+        saveCook();
+
+        if ($('body').hasClass('soundOn')) {
+            responsiveVoice.speak("Звук включен", "Russian Female");
+        } else {
+            responsiveVoice.speak("Звук выключен", "Russian Female");
+        }
+    }); */
+
+    /* функция записи кук, вызывать при изменении атрибута "class" у body */
+    var saveCook = function() {
+        var version_class = $('body').attr('class');
+        $.cookie('version_class', version_class, { expires: 30, path: '/' });
+    }
+
+    setTimeout(flexMenu, 2000);
+});

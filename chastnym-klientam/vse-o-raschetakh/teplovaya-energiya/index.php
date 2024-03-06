@@ -17,6 +17,7 @@ $APPLICATION->SetTitle("Тепловая энергия");
     <h1 class="h1-marginBot h1-relative"><?= $APPLICATION->showTitle() ?></h1>
 </div>
 
+
 <? $APPLICATION->IncludeComponent(
     "bitrix:main.include",
     "",
@@ -26,6 +27,5 @@ $APPLICATION->SetTitle("Тепловая энергия");
     ),
     false);
 ?>
-
 
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

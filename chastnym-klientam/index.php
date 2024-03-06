@@ -167,19 +167,19 @@ $APPLICATION->SetTitle("Частным клиентам");
                     энергии (мощности).</p>
                 <p>При этом потребитель обязан допустить представителей гарантирующего поставщика или сетевой
                     организации в помещение для выполнения мероприятий для организации учета электрической энергии.</p>
-                <a class="button button_mtb" href="/chastnym-klientam/pribory-ucheta/">
+                <a class="button button_mtb" href="/chastnym-klientam/pribory-uchyeta/">
                     <div class="button_inner">
                         Подробнее
                         <div class="button_arrow"></div>
                     </div>
                 </a>
                 <a class="link-with-lines border-top-bottom"
-                   href="/chastnym-klientam/pribory-ucheta/narusheniya-v-rabote-pribora-ucheta/">
+                   href="/chastnym-klientam/pribory-uchyeta/narusheniya-v-rabote-pribora-ucheta/">
                     Последствия выхода из строя либо отсутствия приборов учета
                     <div class="link-with-lines_arrow"></div>
                 </a>
                 <a class="link-with-lines border-top-bottom"
-                   href="/chastnym-klientam/pribory-ucheta/intellektualnye-pribory-ucheta/">
+                   href="/chastnym-klientam/pribory-uchyeta/intellektualnye-pribory-ucheta/">
                     Электросчетчики
                     <div class="link-with-lines_arrow"></div>
                 </a>
