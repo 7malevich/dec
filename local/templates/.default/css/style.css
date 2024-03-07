@@ -3875,7 +3875,7 @@ span.pagination__item {
     border: 3px solid #F08400;
     background: none;
     color: #F08400;
-    font-family: 'Inter';
+    /*font-family: 'Inter';*/
     font-size: 23px;
     line-height: 24px;
     font-weight: 650;

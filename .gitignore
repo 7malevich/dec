@@ -71,6 +71,9 @@ ehthumbs.db
 *.psb
 *.sketch
 *.mp4
+*.svg
+*.jpeg
+*.jpg
 core.*
 
 # храним robots.txt
