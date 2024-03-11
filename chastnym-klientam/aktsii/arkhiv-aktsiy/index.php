@@ -22,10 +22,13 @@ $APPLICATION->SetTitle("Архив акций");
 
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
-            "",
+            "inc_chastnym_klientam_aktsii_arkhiv_aktsiy",
             array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_aktsii_arkhiv_aktsiy",
                 "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/aktsii/arkhiv-aktsiy.php"
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_aktsii_arkhiv_aktsiy/template.php"
             ),
             false);
         ?>

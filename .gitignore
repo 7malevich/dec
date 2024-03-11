@@ -36,6 +36,7 @@
 .Trashes
 Thumbs.db
 ehthumbs.db
+.idea
 
 # исключаем все текстовые и подобные ресурсы
 *.xml
