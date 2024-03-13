@@ -19,7 +19,7 @@ $APPLICATION->SetTitle("Потенциальным клиентам");
             Формы договоров и заявлений            <div class="link-with-lines_arrow "></div>
         </a>
 
-        <a class="link-with-lines border-top-bottom" href="poryadok-zaklyucheniya-dogovora/">
+        <a class="link-with-lines border-top-bottom" href="poryadok-zaklyucheniya-dogovora-1/">
             Порядок заключения договора            <div class="link-with-lines_arrow "></div>
         </a>
 

@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Исполнителям коммунальных услуг");
+$APPLICATION->SetTitle("Порядок заключения договора");
 ?>
 <? $APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumbs", array(
     "PATH" => "",
@@ -15,16 +15,15 @@ $APPLICATION->SetTitle("Исполнителям коммунальных усл
 
 <? $APPLICATION->IncludeComponent(
     "bitrix:main.include",
-    "inc_korporativnym_klientam_potentsialnym_ispolnitelyam_kommunalnykh_uslug",
+    "inc_korporativnym_klientam_potentsialnym_poryadok_zaklyucheniya_dogovora",
     array(
-        "COMPONENT_TEMPLATE" => "inc_korporativnym_klientam_potentsialnym_ispolnitelyam_kommunalnykh_uslug",
+        "COMPONENT_TEMPLATE" => "inc_korporativnym_klientam_potentsialnym_poryadok_zaklyucheniya_dogovora",
         "AREA_FILE_SHOW" => "file",
         "AREA_FILE_SUFFIX" => "inc",
         "EDIT_TEMPLATE" => "page_inc.php",
-        "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_korporativnym_klientam_potentsialnym_ispolnitelyam_kommunalnykh_uslug/template.php"
+        "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_korporativnym_klientam_potentsialnym_poryadok_zaklyucheniya_dogovora/template.php"
     ),
     false
 ); ?>
 
-    
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

@@ -13,4 +13,17 @@ $APPLICATION->SetTitle("Применение коэффициента транс
         <h1 class="h1-marginBot h1-relative"><?= $APPLICATION->showTitle() ?></h1>
     </div>
 
+    <? $APPLICATION->IncludeComponent(
+        "bitrix:main.include",
+        "inc_korporativnym_klientam_organizatsiya_primenenie_koeffitsienta",
+        array(
+            "COMPONENT_TEMPLATE" => "inc_korporativnym_klientam_organizatsiya_primenenie_koeffitsienta",
+            "AREA_FILE_SHOW" => "file",
+            "AREA_FILE_SUFFIX" => "inc",
+            "EDIT_TEMPLATE" => "page_inc.php",
+            "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_korporativnym_klientam_organizatsiya_primenenie_koeffitsienta/template.php"
+        ),
+        false
+    ); ?>
+
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

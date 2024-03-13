@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Последствия безучетного потребления электроэнергии");
+$APPLICATION->SetTitle("Потребителям свыше 670 кВт");
 ?>
 <? $APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumbs", array(
     "PATH" => "",
@@ -15,16 +15,15 @@ $APPLICATION->SetTitle("Последствия безучетного потре
 
     <? $APPLICATION->IncludeComponent(
         "bitrix:main.include",
-        "inc_korporativnym_klientam_organizatsiya_posledstviya_bezuchetnogo",
+        "inc_korporativnym_klientam_organizatsiya_potrebitelyam_kommunalnykh_uslug",
         array(
-            "COMPONENT_TEMPLATE" => "inc_korporativnym_klientam_organizatsiya_posledstviya_bezuchetnogo",
+            "COMPONENT_TEMPLATE" => "inc_korporativnym_klientam_organizatsiya_potrebitelyam_kommunalnykh_uslug",
             "AREA_FILE_SHOW" => "file",
             "AREA_FILE_SUFFIX" => "inc",
             "EDIT_TEMPLATE" => "page_inc.php",
-            "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_korporativnym_klientam_organizatsiya_posledstviya_bezuchetnogo/template.php"
+            "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_korporativnym_klientam_organizatsiya_potrebitelyam_kommunalnykh_uslug/template.php"
         ),
         false
     ); ?>
 
-    
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
