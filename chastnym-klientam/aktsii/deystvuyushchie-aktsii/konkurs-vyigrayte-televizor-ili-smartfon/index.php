@@ -22,10 +22,13 @@ $APPLICATION->SetTitle("Конкурс! Выиграйте телевизор и
 
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
-            "",
+            "inc_chastnym_klientam_aktsii_konkurs_vyigrayte_televizor_ili_smartfon",
             array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_aktsii_konkurs_vyigrayte_televizor_ili_smartfon",
                 "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/aktsii/konkurs-vyigrayte-televizor-ili-smartfon.php"
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_aktsii_konkurs_vyigrayte_televizor_ili_smartfon/template.php"
             ),
             false);
         ?>

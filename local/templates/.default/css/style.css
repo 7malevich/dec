@@ -650,56 +650,56 @@ input[type='submit'].styler[disabled] {
 /* End */
 
 
-/* Start:/local/templates/main/css/fonts.css?16964144924255*/
+/* Start:fonts.css?16964144924255*/
 /*Inter*/
 @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/inter-300.ttf');
+    src: url('../fonts/inter-300.ttf');
 }
 @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/inter-400.ttf');
+    src: url('../fonts/inter-400.ttf');
 }
 @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 0;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/inter-500.ttf');
+    src: url('../fonts/inter-500.ttf');
 }
 @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/inter-600.ttf');
+    src: url('../fonts/inter-600.ttf');
 }
 @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/inter-700.ttf');
+    src: url('../fonts/inter-700.ttf');
 }
 @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/inter-800.ttf');
+    src: url('../fonts/inter-800.ttf');
 }
 @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/inter-900.ttf');
+    src: url('../fonts/inter-900.ttf');
 }
 /*Avenir Next Cyr*/
 @font-face {
@@ -707,122 +707,122 @@ input[type='submit'].styler[disabled] {
     font-style: normal;
     font-weight: 100;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-Thin.ttf');
+    src: url('../fonts/AvenirNextCyr-Thin.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: normal;
     font-weight: 200;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-UltraLight.ttf');
+    src: url('../fonts/AvenirNextCyr-UltraLight.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: normal;
     font-weight: 300;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-Light.ttf');
+    src: url('../fonts/AvenirNextCyr-Light.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: normal;
     font-weight: 400;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-Regular.ttf');
+    src: url('../fonts/AvenirNextCyr-Regular.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: normal;
     font-weight: 450;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-Medium.ttf');
+    src: url('../fonts/AvenirNextCyr-Medium.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: normal;
     font-weight: 600;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-Demi.ttf');
+    src: url('../fonts/AvenirNextCyr-Demi.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: normal;
     font-weight: 750;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-Bold.ttf');
+    src: url('../fonts/AvenirNextCyr-Bold.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: normal;
     font-weight: 800;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-Heavy.ttf');
+    src: url('../fonts/AvenirNextCyr-Heavy.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: italic;
     font-weight: 100;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-ThinItalic.ttf');
+    src: url('../fonts/AvenirNextCyr-ThinItalic.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: italic;
     font-weight: 200;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-UltraLightIt.ttf');
+    src: url('../fonts/AvenirNextCyr-UltraLightIt.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: italic;
     font-weight: 300;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-LightItalic.ttf');
+    src: url('../fonts/AvenirNextCyr-LightItalic.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: italic;
     font-weight: 400;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-Italic.ttf');
+    src: url('../fonts/AvenirNextCyr-Italic.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: italic;
     font-weight: 500;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-MediumItalic.ttf');
+    src: url('../fonts/AvenirNextCyr-MediumItalic.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: italic;
     font-weight: 600;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-DemiItalic.ttf');
+    src: url('../fonts/AvenirNextCyr-DemiItalic.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: italic;
     font-weight: 750;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-BoldItalic.ttf');
+    src: url('../fonts/AvenirNextCyr-BoldItalic.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: italic;
     font-weight: 800;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-HeavyItalic.ttf');
+    src: url('../fonts/AvenirNextCyr-HeavyItalic.ttf');
 }
 @font-face {
     font-family: 'AvantGardeGothic';
     font-display: swap;
-    src: url('/local/templates/main/css/../fonts/AvantGardeGothicC-Demi.otf');
+    src: url('../fonts/AvantGardeGothicC-Demi.otf');
 }
 /* End */
 
 
-/* Start:/local/templates/main/css/style.css?1705909605181435*/
+/* Start:style.css?1705909605181435*/
 .ppix {
     position: absolute;
     top: 0;
@@ -2438,7 +2438,7 @@ body.sticky-menu .header {
     height: 408px;
     background: center center / cover;
 }
-.element-slider__ico[style="background-image:url('/local/templates/main/css/)"] {
+.element-slider__ico[style="background-image:url(')"] {
     background: url('../img/logomask.svg') center center / 50% no-repeat !important;
 }
 .element-slider__title {
@@ -2499,7 +2499,7 @@ body.sticky-menu .header {
     display: block;
     width: 100%;
     height: 100%;
-    background: url(/local/templates/main/css/../img/swiper-arrow.svg) center center no-repeat;
+    background: url(../img/swiper-arrow.svg) center center no-repeat;
 } */
 .swiper-button_prev {
     left: -75px;
@@ -2650,7 +2650,7 @@ body.sticky-menu .header {
     line-height: 0;
     background: center center / cover;
 }
-.news__image[style="background-image:url('/local/templates/main/css/)"] {
+.news__image[style="background-image:url(')"] {
     position: relative;
     background: #EBF3FF;
 }
@@ -2666,7 +2666,7 @@ body.sticky-menu .header {
     left: 50%;
     z-index: 0;
     transform: translate(-50%, -50%);
-    background: url('/local/templates/main/css/../img/logomask.svg') center center / contain no-repeat;
+    background: url('../img/logomask.svg') center center / contain no-repeat;
 }
 .news__image_big {
     height: 500px;
@@ -2815,7 +2815,7 @@ span.pagination__item {
     width: 32px;
     height: 32px;
     position: relative;
-    background: url('/local/templates/main/css/../img/swiper-arrow.svg') center center / contain no-repeat;
+    background: url('../img/swiper-arrow.svg') center center / contain no-repeat;
     margin-left: 20px;
 }
 
@@ -3210,7 +3210,7 @@ span.pagination__item {
     position: absolute;
     bottom: -38px;
     left: -5%;
-    background: url('/local/templates/main/css/../img/waves.svg') center center no-repeat;
+    background: url('../img/waves.svg') center center no-repeat;
     pointer-events: none;
 }
 .ges-levels__top {
@@ -3823,7 +3823,7 @@ span.pagination__item {
     position: absolute;
     top: 5px;
     left: 5px;
-    background: url('/local/templates/main/css/../img/subscribe-form-arrow.svg') center center / cover no-repeat;
+    background: url('../img/subscribe-form-arrow.svg') center center / cover no-repeat;
     transform: rotate(-90deg);
 }
 .lower.water_ch::before {
@@ -3976,7 +3976,7 @@ span.pagination__item {
     height: 20px;
     margin-left: 20px;
     /* background: #F08400; */
-    background: url(/local/templates/main/css/../img/swiper-arrow.svg) center center / contain no-repeat;
+    background: url(../img/swiper-arrow.svg) center center / contain no-repeat;
     transition: .2s;
     flex-shrink: 0;
 }
@@ -4025,7 +4025,7 @@ span.pagination__item {
     transform: translateY(-50%);
     width: 40px;
     height: 40px;
-    background: #F08400 url('/local/templates/main/css/../img/download.svg') center center no-repeat;
+    background: #F08400 url('../img/download.svg') center center no-repeat;
 }
 .content-block_file:hover {
     color: #005D9F;
@@ -4179,7 +4179,7 @@ span.pagination__item {
     height: 40px;
     margin-top: 80px;
     margin-left: auto;
-    background: url('/local/templates/main/css/../img/diagonal-arrow.png') center center / contain no-repeat;
+    background: url('../img/diagonal-arrow.png') center center / contain no-repeat;
 }
 .content-block--link {
     position: absolute;
@@ -4274,7 +4274,7 @@ span.pagination__item {
     justify-content: space-between;
     width: 100%;
     padding: 56px 0;
-    background: url('/local/templates/main/css/../img/page-news/form/bg.png') left center / contain no-repeat, #EBF3FF;
+    background: url('../img/page-news/form/bg.png') left center / contain no-repeat, #EBF3FF;
 }
 .elements-form-subscribe__title {
     width: calc(33.33333% - 104px);
@@ -4329,7 +4329,7 @@ span.pagination__item {
     width: 25px;
     height: 31px;
     margin: 0 0 60px 40px;
-    background: url('/local/templates/main/css/../img/big-number-arrow.svg') center center / contain no-repeat;
+    background: url('../img/big-number-arrow.svg') center center / contain no-repeat;
 }
 .big-number__arrow-down {
     transform: rotateZ(180deg);
@@ -4382,7 +4382,7 @@ span.pagination__item {
     width: 20px;
     height: 24px;
     margin: 0 0 40px 24px;
-    background: url('/local/templates/main/css/../img/middle-number-arrow.svg') center center / contain no-repeat;
+    background: url('../img/middle-number-arrow.svg') center center / contain no-repeat;
 }
 /* .middle-number__arrow::before {
     content: '';
@@ -4862,7 +4862,7 @@ span.pagination__item {
     width: 24px;
     height: 24px;
     margin: 3px 0 0 1px;
-    background: url('/local/templates/main/css/../img/full-earth.svg') center center / contain no-repeat;
+    background: url('../img/full-earth.svg') center center / contain no-repeat;
     text-decoration: none;
 }
 /* .button-page-map a::before {
@@ -5147,7 +5147,7 @@ span.pagination__item {
     border-radius: 50%;
 }
 .informer__inner .informer__inner-item--hatching::before {
-    background: url('/local/templates/main/css/../img/page-company/map/hatching.png') center center / contain no-repeat;
+    background: url('../img/page-company/map/hatching.png') center center / contain no-repeat;
 }
 
 .informer__inner .informer__inner-item--gesGaes::before {
@@ -5296,7 +5296,7 @@ span.pagination__item {
 .scroll-info__graf {
     width: calc(33.33333% - 40px);
     padding: 60px;
-    background: #005D9F url(/local/templates/main/css/../img/page-mission/celevoe/1.svg) top right / cover;
+    background: #005D9F url(../img/page-mission/celevoe/1.svg) top right / cover;
 }
 .scroll-info__content {
     width: calc(66.666666% + 40px);
@@ -5370,7 +5370,7 @@ span.pagination__item {
     left: 50%;
     z-index: 0;
     transform: translate(-50%, -50%);
-    background: url(/local/templates/main/css/../img/logomask.svg) center center / cover no-repeat;
+    background: url(../img/logomask.svg) center center / cover no-repeat;
 }
 .korporat-slider__image img {
     position: relative;
@@ -5615,7 +5615,7 @@ table.blue-head th {
     height: 24px;
     position: relative;
     top: 8px;
-    background: url('/local/templates/main/css/../img/more-down.svg') center center / contain no-repeat;
+    background: url('../img/more-down.svg') center center / contain no-repeat;
     margin-right: 16px;
 }
 .section-pb0 {
@@ -5673,7 +5673,7 @@ table.blue-head th {
     top: -4px;
 }
 .banner_fon-logo::before {
-    background: url('/local/templates/main/css/../img/banner-logo.png') calc(100% + 140px) calc(50% + 60px) / 500px no-repeat;
+    background: url('../img/banner-logo.png') calc(100% + 140px) calc(50% + 60px) / 500px no-repeat;
 }
 .tabs__list_line {
     flex-wrap: nowrap;
@@ -5785,7 +5785,7 @@ table.blue-head th {
     position: absolute;
     top: 0px;
     left: 0px;
-    background: #F08400 url('/local/templates/main/css/../img/download.svg') center center no-repeat;
+    background: #F08400 url('../img/download.svg') center center no-repeat;
 }
 .file-download.border-top-bottom {
     padding: 38px 0 32px 64px;
@@ -5861,7 +5861,7 @@ table.blue-head th {
     position: absolute;
     top: 40px;
     left: 40px;
-    background: url('/local/templates/main/css/../img/quote.svg') center center / cover no-repeat;
+    background: url('../img/quote.svg') center center / cover no-repeat;
 }
 .blockquote2 .p2 {
     margin-bottom: 0;
@@ -5958,7 +5958,7 @@ table + img {
     left: 50%;
     z-index: 0;
     transform: translate(-50%, -50%);
-    background: url('/local/templates/main/css/../img/logomask.svg') center center / cover no-repeat;
+    background: url('../img/logomask.svg') center center / cover no-repeat;
 }
 .director-item__ico img {
     width: 100%;
@@ -5994,7 +5994,7 @@ a.back-link:hover {
     position: absolute;
     top: 2px;
     left: 0px;
-    background: url('/local/templates/main/css/../img/back-arrow.svg') center center / cover no-repeat;
+    background: url('../img/back-arrow.svg') center center / cover no-repeat;
 }
 .back-link:hover {
     color: #2C3148;
@@ -6035,7 +6035,7 @@ a.back-link:hover {
     left: 50%;
     z-index: 0;
     transform: translate(-50%, -50%);
-    background: url('/local/templates/main/css/../img/logomask.svg') center center / cover no-repeat;
+    background: url('../img/logomask.svg') center center / cover no-repeat;
 }
 .person-one-image-has {
     background: none;
@@ -6103,7 +6103,7 @@ a.back-link:hover {
     left: 50%;
     z-index: 0;
     transform: translate(-50%, -50%);
-    background: url('/local/templates/main/css/../img/logomask.svg') center center / cover no-repeat;
+    background: url('../img/logomask.svg') center center / cover no-repeat;
 }
 .committee__ico img {
     position: relative;
@@ -6211,7 +6211,7 @@ a.back-link:hover {
     justify-content: flex-start;
 }
 .file-upload__load::before {
-    background-image: url('/local/templates/main/css/../img/attach.svg');
+    background-image: url('../img/attach.svg');
 }
 .file-upload__name {
     color: #005D9F;
@@ -6233,7 +6233,7 @@ a.back-link:hover {
     margin-bottom: 20px;
 }
 .file-upload__item::before {
-    background-image: url('/local/templates/main/css/../img/file.svg');
+    background-image: url('../img/file.svg');
 }
 .file-upload__file-name {
     position: relative;
@@ -6539,13 +6539,13 @@ img.unset-width-img,
 }
 
 .pswp__button::before {
-    background: url(/local/templates/main/css/../img/gallery-arrow.svg) center center / contain no-repeat;
+    background: url(../img/gallery-arrow.svg) center center / contain no-repeat;
     width: 56px;
     height: 56px;
     top: 24px;
 }
 .pswp__button:hover::before {
-    background-image: url(/local/templates/main/css/../img/gallery-arrow-blue.svg);
+    background-image: url(../img/gallery-arrow-blue.svg);
 }
 .pswp__button--arrow--left::before {
     left: 50px;
@@ -6964,7 +6964,7 @@ h6,.h6 {
 }
 .file-download_white::before {
     background-color:#FFF;
-    background-image:url('/local/templates/main/css/../img/download-white.svg');
+    background-image:url('../img/download-white.svg');
 }
 .file-download_marginBot {
     margin-bottom: 40px;
@@ -7364,7 +7364,7 @@ h6,.h6 {
     width: 32px;
     height: 32px;
     margin-left: 8px;
-    background: url('/local/templates/main/css/../img/eye.svg') center center no-repeat;
+    background: url('../img/eye.svg') center center no-repeat;
 }
 .multimedia__source {
     width: 100%;
@@ -7395,7 +7395,7 @@ h6,.h6 {
     position: absolute;
     top: 0px;
     left: 0px;
-    background: url('/local/templates/main/css/../img/youtube-banner.png') calc(100% - 37px) -94px no-repeat;
+    background: url('../img/youtube-banner.png') calc(100% - 37px) -94px no-repeat;
     pointer-events: none;
 }
 
@@ -7537,7 +7537,7 @@ h6,.h6 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: url('/local/templates/main/css/../img/magnifier.svg') center center / cover no-repeat;
+    background: url('../img/magnifier.svg') center center / cover no-repeat;
 }
 .multimedia_item:hover .multimedia__magnifier {
     opacity: 1;
@@ -7714,7 +7714,7 @@ h6,.h6 {
     width: 328px;
 }
 .input__wrapper_datepicker .input {
-    background: url(/local/templates/main/css/../img/calendar.svg) calc(100% - 8px) center no-repeat;
+    background: url(../img/calendar.svg) calc(100% - 8px) center no-repeat;
     background-color: #EBF3FF;
 }
 .ges_gray .input__wrapper_datepicker .input {
@@ -7925,7 +7925,7 @@ hr:not(class) {
     margin: 4px 0 -6px 3px;
     width: 24px;
     height: 24px;
-    background: url(/local/templates/main/css/../img/outerlink.svg) center center / contain no-repeat;
+    background: url(../img/outerlink.svg) center center / contain no-repeat;
 }
 .reset-button {
     position: relative;
@@ -8159,7 +8159,7 @@ hr:not(class) {
     height: 20px;
     position: relative;
     margin-right: 4px;
-    background: #F08400 url('/local/templates/main/css/../img/download.svg') center center / 12px no-repeat;
+    background: #F08400 url('../img/download.svg') center center / 12px no-repeat;
     top: 4px;
     margin-left: 2px;
 }
@@ -8649,7 +8649,7 @@ button.file-download_archiv {
     z-index: 1;
     width: 858px;
     height: 820px;
-    background: url('/local/templates/main/css/../img/page-sorevnovaniya/sorevnovaniya-banner-decor.png');
+    background: url('../img/page-sorevnovaniya/sorevnovaniya-banner-decor.png');
 }
 .sorevnovaniya-banner__logo {
     position: absolute;
@@ -8721,7 +8721,7 @@ button.file-download_archiv {
     left: 0;
     width: 24px;
     height: 21px;
-    background: url('/local/templates/main/css/../img/mailto.svg') center center / contain no-repeat;
+    background: url('../img/mailto.svg') center center / contain no-repeat;
 }
 
 .sorevnovaniya-footer--links {
@@ -9318,7 +9318,7 @@ body {
 }
 
 .help_form-block {
-    background: url('/local/templates/main/css/../img/page-news/form/bg-new.png') left center / cover no-repeat, #EBF3FF !important;
+    background: url('../img/page-news/form/bg-new.png') left center / cover no-repeat, #EBF3FF !important;
     border-radius: 0 !important;
     color: #2C3148 !important;
 }
@@ -9634,7 +9634,7 @@ body {
 /* End */
 
 
-/* Start:/local/templates/main/css/resize.css?170307510991998*/
+/* Start:resize.css?170307510991998*/
 @media (max-width: 1680px) {
     .multimedia__prev {
         height: calc(((100vw - 252px) / 2 - 30px) * 0.5614);
@@ -10884,7 +10884,7 @@ body {
     .scroll-info__graf {
         width: 100%;
         padding: 32px;
-        background-image: url(/local/templates/main/css/../img/page-mission/celevoe/2.svg);
+        background-image: url(../img/page-mission/celevoe/2.svg);
     }
     .scroll-info__content {
         width: 100%;
@@ -13912,7 +13912,7 @@ body {
 /* End */
 
 
-/* Start:/local/templates/main/css/new.css?170244886210034*/
+/* Start:new.css?170244886210034*/
 .page-types { display: flex; justify-content: space-between; }
 .page-types-item { width: 33.33%; position: relative; padding: 0 28px; font-size: 24px; line-height: 1.4em; display: flex; flex-direction: column; justify-content: space-between; }
 .page-types-item:after { content: ''; height: 100%; width: 3px; background: #D5E2F7; position: absolute; top: 0; right: 0; }
@@ -14508,9 +14508,9 @@ a.icon-link:hover {
 /* /local/templates/main/assets/css/swiper-bundle.min.css?169641449213934 */
 /* /local/templates/main/assets/css/owl.carousel.min.css?16964144923351 */
 /* /local/templates/main/assets/css/owl.theme.default.min.css?16964144921013 */
-/* /local/templates/main/css/fonts.css?16964144924255 */
-/* /local/templates/main/css/style.css?1705909605181435 */
-/* /local/templates/main/css/resize.css?170307510991998 */
-/* /local/templates/main/css/new.css?170244886210034 */
+/* fonts.css?16964144924255 */
+/* style.css?1705909605181435 */
+/* resize.css?170307510991998 */
+/* new.css?170244886210034 */
 /* /local/templates/main/components/bitrix/news.list/profit_calc/style.css?17020227781398 */
 /* /local/templates/main/components/smcms/form/appointment_to_office/style.css?17031355931728 */

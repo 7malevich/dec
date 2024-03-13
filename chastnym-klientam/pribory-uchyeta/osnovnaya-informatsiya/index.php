@@ -22,10 +22,13 @@ $APPLICATION->SetTitle("Основная информация");
 
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
-            "",
+            "inc_chastnym_klientam_pribory_uchyeta_osnovnaya_informatsiya",
             array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_pribory_uchyeta_osnovnaya_informatsiya",
                 "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/pribory-uchyeta/osnovnaya-informatsiya.php"
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_pribory_uchyeta_osnovnaya_informatsiya/template.php"
             ),
             false);
         ?>

@@ -22,10 +22,13 @@ $APPLICATION->SetTitle("Поверка");
 
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
-            "",
+            "inc_chastnym_klientam_pribory_uchyeta_poverka",
             array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_pribory_uchyeta_poverka",
                 "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/pribory-uchyeta/poverka.php"
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_pribory_uchyeta_poverka/template.php"
             ),
             false);
         ?>

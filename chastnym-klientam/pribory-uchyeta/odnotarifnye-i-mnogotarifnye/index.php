@@ -22,10 +22,13 @@ $APPLICATION->SetTitle("Основная информация");
 
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
-            "",
+            "inc_chastnym_klientam_pribory_uchyeta_odnotarifnye_i_mnogotarifnye",
             array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_pribory_uchyeta_odnotarifnye_i_mnogotarifnye",
                 "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/pribory-uchyeta/odnotarifnye-i-mnogotarifnye.php"
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_pribory_uchyeta_odnotarifnye_i_mnogotarifnye/template.php"
             ),
             false);
         ?>

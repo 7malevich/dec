@@ -16,15 +16,20 @@ $APPLICATION->SetTitle("Мобильное приложение");
 <section>
     <div class="block section-pt0">
         <div class="container text-block">
-            <p>
-                В мобильном приложении (скачивание <a target="_blank" rel="noopener" class="outerlink"
-                                                      href="https://disk.yandex.ru/d/T4CQq916vGA1KQ"><span><u>доступно только для </u><u>Android</u></span><i></i></a>).
-                Помимо оплаты картой любого банка, можно совершить платеж через Mir&nbsp;Pay (Мирпей).&nbsp;
-            </p>
-            <p>
-                При оплате онлайн в мобильном приложении, комиссия с клиента НЕ ВЗИМАЕТСЯ, все расходы по проведению
-                платежа несет ПАО «РЭСК».
-            </p>
+
+            <? $APPLICATION->IncludeComponent(
+                "bitrix:main.include",
+                "inc_chastnym_klientam_oplata_mobilnoe_prilozhenie",
+                array(
+                    "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_oplata_mobilnoe_prilozhenie",
+                    "AREA_FILE_SHOW" => "file",
+                    "AREA_FILE_SUFFIX" => "inc",
+                    "EDIT_TEMPLATE" => "page_inc.php",
+                    "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_oplata_mobilnoe_prilozhenie/template.php"
+                ),
+                false);
+            ?>
+
         </div>
     </div>
 </section>

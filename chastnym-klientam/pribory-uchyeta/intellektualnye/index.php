@@ -24,10 +24,13 @@ $APPLICATION->SetTitle("Интеллектуальные приборы учет
 
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
-            "",
+            "inc_chastnym_klientam_pribory_uchyeta_intellektualnye",
             array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_pribory_uchyeta_intellektualnye",
                 "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/pribory-uchyeta/intellektualnye.php"
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_pribory_uchyeta_intellektualnye/template.php"
             ),
             false);
         ?>

@@ -17,15 +17,23 @@ $APPLICATION->SetTitle("Тепловая энергия");
     <h1 class="h1-marginBot h1-relative"><?= $APPLICATION->showTitle() ?></h1>
 </div>
 
+<section class="block section-pt0">
+    <div class="container text-block">
 
-<? $APPLICATION->IncludeComponent(
-    "bitrix:main.include",
-    "",
-    array(
-        "AREA_FILE_SHOW" => "file",
-        "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/vse-o-raschetakh/teplovaya-energiya.php"
-    ),
-    false);
-?>
+        <? $APPLICATION->IncludeComponent(
+            "bitrix:main.include",
+            "inc_chastnym_klientam_vse_o_raschetakh_teplovaya_energiya",
+            array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_vse_o_raschetakh_teplovaya_energiya",
+                "AREA_FILE_SHOW" => "file",
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_vse_o_raschetakh_teplovaya_energiya/template.php"
+            ),
+            false);
+        ?>
+
+    </div>
+</section>
 
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

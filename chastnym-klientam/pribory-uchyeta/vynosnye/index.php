@@ -22,10 +22,13 @@ $APPLICATION->SetTitle("Выносные приборы учета (частны
 
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
-            "",
+            "inc_chastnym_klientam_pribory_uchyeta_vynosnye",
             array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_pribory_uchyeta_vynosnye",
                 "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/pribory-uchyeta/vynosnye.php"
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_pribory_uchyeta_vynosnye/template.php"
             ),
             false);
         ?>

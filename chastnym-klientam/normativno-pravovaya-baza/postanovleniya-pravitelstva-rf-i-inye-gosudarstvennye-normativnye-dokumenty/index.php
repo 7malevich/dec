@@ -22,10 +22,13 @@ $APPLICATION->SetTitle("Постановления Правительства Р
 
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
-            "",
+            "inc_chastnym_klientam_normativno_pravovaya_postanovleniya_pravitelstva",
             array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_normativno_pravovaya_postanovleniya_pravitelstva",
                 "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/normativno-pravovaya-baza/postanovleniya-pravitelstva-rf-i-inye-gosudarstvennye-normativnye-dokumenty.php"
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_normativno_pravovaya_postanovleniya_pravitelstva/template.php"
             ),
             false);
         ?>

@@ -17,20 +17,17 @@ $APPLICATION->SetTitle("Региональные нормативные акты
     <h1 class="h1-marginBot h1-relative"><?= $APPLICATION->showTitle() ?></h1>
 </div>
 
-<section class="block section-pt0">
-    <div class="container">
-
-        <? $APPLICATION->IncludeComponent(
-            "bitrix:main.include",
-            "",
-            array(
-                "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/normativno-pravovaya-baza/regionalnye-normativnye-akty.php"
-            ),
-            false);
-        ?>
-
-    </div>
-</section>
+<? $APPLICATION->IncludeComponent(
+    "bitrix:main.include",
+    "inc_chastnym_klientam_normativno_pravovaya_regionalnye_normativnye_akty",
+    array(
+        "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_normativno_pravovaya_regionalnye_normativnye_akty",
+        "AREA_FILE_SHOW" => "file",
+        "AREA_FILE_SUFFIX" => "inc",
+        "EDIT_TEMPLATE" => "page_inc.php",
+        "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_normativno_pravovaya_regionalnye_normativnye_akty/template.php"
+    ),
+    false);
+?>
 
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

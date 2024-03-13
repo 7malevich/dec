@@ -22,10 +22,13 @@ $APPLICATION->SetTitle("Законы РФ");
 
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
-            "",
+            "inc_chastnym_klientam_normativno_pravovaya_baza_zakony_rf",
             array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_normativno_pravovaya_baza_zakony_rf",
                 "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/normativno-pravovaya-baza/zakony-rf.php"
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_normativno_pravovaya_baza_zakony_rf/template.php"
             ),
             false);
         ?>

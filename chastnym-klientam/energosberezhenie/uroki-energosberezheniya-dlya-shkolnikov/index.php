@@ -13,28 +13,15 @@ $APPLICATION->SetTitle("Уроки энергосбережения для шк�
     <h1 class="h1-marginBot h1-relative"><?= $APPLICATION->showTitle() ?></h1>
 </div>
 
-<section class="block section-pt0">
-    <div class="container text-block">
-
-        <? $APPLICATION->IncludeComponent(
-            "bitrix:main.include",
-            "",
-            array(
-                "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/energosberezhenie/uroki-energosberezheniya-dlya-shkolnikov.php"
-            ),
-            false);
-        ?>
-
-    </div>
-</section>
-
 <? $APPLICATION->IncludeComponent(
     "bitrix:main.include",
-    "",
+    "inc_chastnym_klientam_energosberezhenie_sposoby_uroki_energosberezheniya_dlya_shkolnikov",
     array(
+        "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_energosberezhenie_sposoby_uroki_energosberezheniya_dlya_shkolnikov",
         "AREA_FILE_SHOW" => "file",
-        "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/energosberezhenie/uroki-energosberezheniya-dlya-shkolnikov--slider.php"
+        "AREA_FILE_SUFFIX" => "inc",
+        "EDIT_TEMPLATE" => "page_inc.php",
+        "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_energosberezhenie_sposoby_uroki_energosberezheniya_dlya_shkolnikov/template.php"
     ),
     false);
 ?>

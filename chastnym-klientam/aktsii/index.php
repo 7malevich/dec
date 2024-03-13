@@ -22,10 +22,13 @@ $APPLICATION->SetTitle("Акции");
 
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
-            "",
+            "inc_chastnym_klientam_aktsii",
             array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_aktsii",
                 "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/aktsii/index.php"
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_aktsii/template.php"
             ),
             false);
         ?>

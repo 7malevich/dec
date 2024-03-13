@@ -18,23 +18,29 @@ $APPLICATION->SetTitle("Способы энергосбережения");
 
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
-            "",
+            "inc_chastnym_klientam_energosberezhenie_sposoby_energosberezheniya_text",
             array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_energosberezheni_sposoby_energosberezheniyae_text",
                 "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/energosberezhenie/sposoby-energosberezheniya--text.php"
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_energosberezhenie_sposoby_energosberezheniya_text/template.php"
             ),
             false);
         ?>
 
-            <? $APPLICATION->IncludeComponent(
-                "bitrix:main.include",
-                "",
-                array(
-                    "AREA_FILE_SHOW" => "file",
-                    "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/energosberezhenie/sposoby-energosberezheniya--icon.php"
-                ),
-                false);
-            ?>
+        <? $APPLICATION->IncludeComponent(
+            "bitrix:main.include",
+            "inc_chastnym_klientam_energosberezhenie_sposoby_energosberezheniya_icon",
+            array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_energosberezhenie_sposoby_energosberezheniya_icon",
+                "AREA_FILE_SHOW" => "file",
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_energosberezhenie_sposoby_energosberezheniya_icon/template.php"
+            ),
+            false);
+        ?>
 
     </div>
 </section>
@@ -44,10 +50,13 @@ $APPLICATION->SetTitle("Способы энергосбережения");
 
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
-            "",
+            "inc_chastnym_klientam_energosberezhenie_sposoby_energosberezheniya_spoiler",
             array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_energosberezhenie_sposoby_energosberezheniya_spoiler",
                 "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/energosberezhenie/sposoby-energosberezheniya--spoiler.php"
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_energosberezhenie_sposoby_energosberezheniya_spoiler/template.php"
             ),
             false);
         ?>

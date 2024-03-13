@@ -22,10 +22,13 @@ $APPLICATION->SetTitle("Нормативно-правовая база");
 
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
-            "",
+            "inc_chastnym_klientam_normativno_pravovaya_baza",
             array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_normativno_pravovaya_baza",
                 "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/normativno-pravovaya-baza/index.php"
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_normativno_pravovaya_baza/template.php"
             ),
             false);
         ?>

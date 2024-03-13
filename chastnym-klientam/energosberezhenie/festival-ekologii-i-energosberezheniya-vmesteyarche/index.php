@@ -18,10 +18,13 @@ $APPLICATION->SetTitle("Фестиваль экологии и энергосб�
 
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
-            "",
+            "inc_chastnym_klientam_energosberezhenie_festival_ekologii_i_energosberezheniya_vmesteyarche",
             array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_energosberezhenie_festival_ekologii_i_energosberezheniya_vmesteyarche",
                 "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/energosberezhenie/festival-ekologii-i-energosberezheniya-vmesteyarche.php"
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_energosberezhenie_festival_ekologii_i_energosberezheniya_vmesteyarche/template.php"
             ),
             false);
         ?>

@@ -22,10 +22,13 @@ $APPLICATION->SetTitle("Последствия несанкционирован�
 
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
-            "",
+            "inc_chastnym_klientam_pribory_uchyeta_posledstviya_nesanktsionirovannogo_vmeshatelstva_v_rabotu",
             array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_pribory_uchyeta_posledstviya_nesanktsionirovannogo_vmeshatelstva_v_rabotu",
                 "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/pribory-uchyeta/posledstviya-nesanktsionirovannogo-vmeshatelstva-v-rabotu.php"
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_pribory_uchyeta_posledstviya_nesanktsionirovannogo_vmeshatelstva_v_rabotu/template.php"
             ),
             false);
         ?>

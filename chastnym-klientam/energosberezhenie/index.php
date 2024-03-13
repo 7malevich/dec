@@ -15,15 +15,20 @@ $APPLICATION->SetTitle("Энергосбережение");
 
 <section class="block section-pt0">
     <div class="container">
+
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
-            "",
+            "inc_chastnym_klientam_energosberezhenie",
             array(
+                "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_energosberezhenie",
                 "AREA_FILE_SHOW" => "file",
-                "PATH" => DEFAULT_TEMPLATE_PATH . "/components/bitrix/main.include/inc_chastnym_klientam/energosberezhenie/index.php"
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "page_inc.php",
+                "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_energosberezhenie/template.php"
             ),
             false);
         ?>
+
     </div>
 </section>
 
