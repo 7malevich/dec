@@ -13,4 +13,38 @@ $APPLICATION->SetTitle("Энергосбытовым компаниям");
         <h1 class="h1-marginBot h1-relative"><?= $APPLICATION->showTitle() ?></h1>
     </div>
 
+    <section class="block section-pt0 section-pb0">
+        <div class="container">
+
+            <div class="border-top-bottom border-top-bottom--last" id="bx_3218110189_1499">
+                <a class="link-with-lines"
+                    href="/korporativnym-klientam/distantsionnye-servisy/podacha-zayavleniy-onlayn/">
+                    Конструктор заявления на заключение договора <div class="link-with-lines_arrow"></div>
+                </a>
+            </div>
+            <div class="border-top-bottom border-top-bottom--last" id="bx_3218110189_1500">
+                <a class="link-with-lines"
+                    href="/korporativnym-klientam/potentsialnym-klientam/perechen-dokumentov-dlya-zaklyucheniya-dogovora-i-vneseniya-izmeneniy/">
+                    Перечень документов для подачи заявления на заключение договора <div class="link-with-lines_arrow">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <? $APPLICATION->IncludeComponent(
+        "bitrix:main.include",
+        "inc_korporativnym_klientam_potentsialnym_energosbytovym_kompaniyam",
+        array(
+            "COMPONENT_TEMPLATE" => "inc_korporativnym_klientam_potentsialnym_energosbytovym_kompaniyam",
+            "AREA_FILE_SHOW" => "file",
+            "AREA_FILE_SUFFIX" => "inc",
+            "EDIT_TEMPLATE" => "page_inc.php",
+            "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_korporativnym_klientam_potentsialnym_energosbytovym_kompaniyam/template.php"
+        ),
+        false
+    ); ?>
+
+
+
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

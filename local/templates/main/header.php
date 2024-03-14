@@ -125,14 +125,14 @@ $APPLICATION->ShowPanel();
     </div>
     <div class="header-item header-item_border-left header-geo-link">
         <?php
-        $APPLICATION->IncludeComponent(
+        /* $APPLICATION->IncludeComponent(
             "intec.regionality:regions.select",
             "multiregion",
             array(
                 "COMPONENT_TEMPLATE" => "multiregion"
             ),
             false
-        );
+        ); */
         ?>
 
     </div>

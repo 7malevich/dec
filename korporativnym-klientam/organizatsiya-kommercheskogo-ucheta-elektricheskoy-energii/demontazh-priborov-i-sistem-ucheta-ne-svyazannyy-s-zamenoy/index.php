@@ -13,5 +13,17 @@ $APPLICATION->SetTitle("Демонтаж приборов и систем уче
         <h1 class="h1-marginBot h1-relative"><?= $APPLICATION->showTitle() ?></h1>
     </div>
 
+    <? $APPLICATION->IncludeComponent(
+    "bitrix:main.include",
+    "inc_korporativnym_klientam_organizatsiya_demontazh",
+    array(
+        "COMPONENT_TEMPLATE" => "inc_korporativnym_klientam_organizatsiya_demontazh",
+        "AREA_FILE_SHOW" => "file",
+        "AREA_FILE_SUFFIX" => "inc",
+        "EDIT_TEMPLATE" => "page_inc.php",
+        "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_korporativnym_klientam_organizatsiya_demontazh/template.php"
+    ),
+    false
+); ?>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
