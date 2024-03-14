@@ -650,56 +650,56 @@ input[type='submit'].styler[disabled] {
 /* End */
 
 
-/* Start:/local/templates/main/css/fonts.css?16964144924255*/
+/* Start:fonts.css?16964144924255*/
 /*Inter*/
 @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/inter-300.ttf');
+    src: url('../fonts/inter-300.ttf');
 }
 @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/inter-400.ttf');
+    src: url('../fonts/inter-400.ttf');
 }
 @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 0;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/inter-500.ttf');
+    src: url('../fonts/inter-500.ttf');
 }
 @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/inter-600.ttf');
+    src: url('../fonts/inter-600.ttf');
 }
 @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/inter-700.ttf');
+    src: url('../fonts/inter-700.ttf');
 }
 @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/inter-800.ttf');
+    src: url('../fonts/inter-800.ttf');
 }
 @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/inter-900.ttf');
+    src: url('../fonts/inter-900.ttf');
 }
 /*Avenir Next Cyr*/
 @font-face {
@@ -707,122 +707,122 @@ input[type='submit'].styler[disabled] {
     font-style: normal;
     font-weight: 100;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-Thin.ttf');
+    src: url('../fonts/AvenirNextCyr-Thin.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: normal;
     font-weight: 200;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-UltraLight.ttf');
+    src: url('../fonts/AvenirNextCyr-UltraLight.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: normal;
     font-weight: 300;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-Light.ttf');
+    src: url('../fonts/AvenirNextCyr-Light.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: normal;
     font-weight: 400;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-Regular.ttf');
+    src: url('../fonts/AvenirNextCyr-Regular.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: normal;
     font-weight: 450;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-Medium.ttf');
+    src: url('../fonts/AvenirNextCyr-Medium.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: normal;
     font-weight: 600;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-Demi.ttf');
+    src: url('../fonts/AvenirNextCyr-Demi.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: normal;
     font-weight: 750;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-Bold.ttf');
+    src: url('../fonts/AvenirNextCyr-Bold.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: normal;
     font-weight: 800;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-Heavy.ttf');
+    src: url('../fonts/AvenirNextCyr-Heavy.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: italic;
     font-weight: 100;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-ThinItalic.ttf');
+    src: url('../fonts/AvenirNextCyr-ThinItalic.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: italic;
     font-weight: 200;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-UltraLightIt.ttf');
+    src: url('../fonts/AvenirNextCyr-UltraLightIt.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: italic;
     font-weight: 300;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-LightItalic.ttf');
+    src: url('../fonts/AvenirNextCyr-LightItalic.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: italic;
     font-weight: 400;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-Italic.ttf');
+    src: url('../fonts/AvenirNextCyr-Italic.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: italic;
     font-weight: 500;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-MediumItalic.ttf');
+    src: url('../fonts/AvenirNextCyr-MediumItalic.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: italic;
     font-weight: 600;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-DemiItalic.ttf');
+    src: url('../fonts/AvenirNextCyr-DemiItalic.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: italic;
     font-weight: 750;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-BoldItalic.ttf');
+    src: url('../fonts/AvenirNextCyr-BoldItalic.ttf');
 }
 @font-face {
     font-family: 'Avenir Next Cyr';
     font-style: italic;
     font-weight: 800;
     font-display: fallback;
-    src: url('/local/templates/main/css/../fonts/AvenirNextCyr-HeavyItalic.ttf');
+    src: url('../fonts/AvenirNextCyr-HeavyItalic.ttf');
 }
 @font-face {
     font-family: 'AvantGardeGothic';
     font-display: swap;
-    src: url('/local/templates/main/css/../fonts/AvantGardeGothicC-Demi.otf');
+    src: url('../fonts/AvantGardeGothicC-Demi.otf');
 }
 /* End */
 
 
-/* Start:/local/templates/main/css/style.css?1705909605181435*/
+/* Start:style.css?1705909605181435*/
 .ppix {
     position: absolute;
     top: 0;
@@ -2438,7 +2438,7 @@ body.sticky-menu .header {
     height: 408px;
     background: center center / cover;
 }
-.element-slider__ico[style="background-image:url('/local/templates/main/css/)"] {
+.element-slider__ico[style="background-image:url(')"] {
     background: url('../img/logomask.svg') center center / 50% no-repeat !important;
 }
 .element-slider__title {
@@ -2650,7 +2650,7 @@ body.sticky-menu .header {
     line-height: 0;
     background: center center / cover;
 }
-.news__image[style="background-image:url('/local/templates/main/css/)"] {
+.news__image[style="background-image:url(')"] {
     position: relative;
     background: #EBF3FF;
 }
@@ -3875,7 +3875,7 @@ span.pagination__item {
     border: 3px solid #F08400;
     background: none;
     color: #F08400;
-    font-family: 'Inter';
+    /*font-family: 'Inter';*/
     font-size: 23px;
     line-height: 24px;
     font-weight: 650;
@@ -9634,7 +9634,7 @@ body {
 /* End */
 
 
-/* Start:/local/templates/main/css/resize.css?170307510991998*/
+/* Start:resize.css?170307510991998*/
 @media (max-width: 1680px) {
     .multimedia__prev {
         height: calc(((100vw - 252px) / 2 - 30px) * 0.5614);
@@ -13912,7 +13912,7 @@ body {
 /* End */
 
 
-/* Start:/local/templates/main/css/new.css?170244886210034*/
+/* Start:new.css?170244886210034*/
 .page-types { display: flex; justify-content: space-between; }
 .page-types-item { width: 33.33%; position: relative; padding: 0 28px; font-size: 24px; line-height: 1.4em; display: flex; flex-direction: column; justify-content: space-between; }
 .page-types-item:after { content: ''; height: 100%; width: 3px; background: #D5E2F7; position: absolute; top: 0; right: 0; }
@@ -14393,7 +14393,9 @@ a.icon-link:hover {
     text-align: right;
 }
 .profit-calc .jq-selectbox li {
-    white-space: break-spaces;
+    white-space: inherit;
+    line-height: 1.3;
+    text-align: left;
 }
 @media (max-width: 600px) {
     .profit-input-row .w50,
@@ -14495,584 +14497,6 @@ a.icon-link:hover {
 .form__success {
     display: none;
 }
-
-
-
-
-/* Гид по квитанции */
-.gid__tabs {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: unset;
-    justify-content: flex-start;
-}
-.gid__tab {
-    color: #005D9F;
-    margin-right: 32px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: .2s;
-}
-.gid__tab.active,
-.gid__tab:hover {
-    color: #F08400;
-}
-.gid__pages {
-    margin-top: 32px;
-}
-.gid__page {
-    display: none;
-    overflow: auto hidden;
-}
-.gid__item {
-    position: relative;
-    width: 100%;
-    min-width: 800px;
-}
-.gid__image {
-    border: 1px solid #005D9F;
-    width: 100%;
-    min-width: 800px;
-    max-width: unset;
-    height: auto;
-    margin: 0;
-}
-
-.marker {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    background: #F08400;
-    border-radius: 50%;
-    cursor: pointer;
-    transform: translate(-50%,-50%);
-    transition: .2s;
-}
-.marker::before {
-    content: '?';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 60%;
-}
-.marker__select {
-    position: absolute;
-    background: #005D9F;
-    height: 2.1%;
-    opacity: .2;
-    cursor: pointer;
-}
-.gid__page:nth-child(1) .marker__select {
-    height: 2.1%;
-}
-.gid__page:nth-child(2) .marker__select {
-    height: 2.1%;
-}
-.gid__page:nth-child(3) .marker__select {
-    height: 3.1%;
-}
-.gid__page:nth-child(4) .marker__select {
-    height: 3.1%;
-}
-.marker__text {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
-    transition: .2s;
-    background: #EBF3FF;
-    padding: 10px;
-    width: max-content;
-    max-width: 400px;
-    top: calc(100% + 2px);
-    border: 1px solid #F08400;
-    line-height: 120%;
-    box-shadow: 0 0 8px -5px #000;
-}
-.marker__text--left {
-    left: 0;
-}
-.marker__text--right {
-    right: 0;
-}
-.marker__text--top {
-    top: auto;
-    bottom: calc(100% + 2px);
-}
-.marker.visited {
-    opacity: .6;
-}
-.marker.show {
-    background: #005D9F;
-    opacity: 1;
-    z-index: 1;
-}
-.marker.show .marker__text {
-    opacity: 1;
-    pointer-events: all;
-}
-
-@media (max-width: 880px) {
-    .marker {
-        width: 12px;
-        height: 12px;
-    }
-    .marker::before {
-        font-size: 50%;
-    }
-    .marker__text {
-        padding: 5px;
-        width: 250px;
-        font-size: 60%;
-    }
-}
-
-.icon-link-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    margin: -16px;
-}
-.icon-link {
-    background: #EBF3FF;
-    display: flex;
-    align-items: center;
-    color: #2C3148;
-    font-weight: 700;
-    padding: 32px;
-    margin: 16px;
-    width: calc(100% / 3 - 33px);
-    line-height: normal;
-    position: relative;
-}
-.icon-link a {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-.icon-link .outerlink i {
-    display: none;
-}
-.icon-link:hover {
-    color: #005D9F;
-}
-.icon-link img {
-    margin-right: 32px;
-    flex: none;
-}
-.icon-link.videoconsult img {
-    height: 64px;
-    width: auto;
-}
-.icon-link.videoconsult span {
-    font-weight: 400;
-}
-@media (max-width: 1280px) {
-    .icon-link {
-        width: calc(100% / 2 - 32px);
-    }
-}
-@media (max-width: 850px) {
-    .icon-link {
-        width: calc(100% - 32px);
-    }
-}
-@media (max-width: 480px) {
-    .icon-link-wrapper {
-        margin: -8px;
-    }
-    .icon-link {
-        padding: 20px 16px;
-        width: calc(100% - 16px);
-        margin: 8px;
-    }
-    .icon-link img {
-        margin-right: 16px;
-    }
-}
-
-/*start Инструкция*/
-.instruction .photogallery-slider {
-    max-width: none;
-}
-.instruction .photogallery-slider__nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    gap: 32px;
-    margin: 0;
-    z-index: 1;
-    background: #FFFFFF;
-}
-.instruction-slide {
-    display: flex;
-    gap: 32px;
-}
-.instruction-text {
-    flex: 1;
-    margin-top: 88px;
-}
-.instruction-img {
-    flex: 1;
-    border: 3px solid #D5E2F7;
-    height: 407px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-@media (max-width: 1024px) {
-    .instruction-slide {
-        flex-direction: column;
-    }
-    .instruction-text {
-        flex: auto;
-    }
-    .instruction-img {
-        flex: auto;
-        height: 50vw;
-    }
-}
-/*end Инструкция*/
-
-
-.quittance {
-    position: relative;
-    overflow: hidden;
-    min-width: 1000px;
-}
-.quittance img {
-    width: 100%;
-}
-
-.quittance-info {
-    position: absolute;
-    /* box-shadow: 0 0 2px red; */
-    box-shadow: 0 0 0 1200px rgba(0,0,0,0);
-    cursor: pointer;
-    transition: .2s;
-    z-index: 1;
-}
-.quittance-info:hover {
-    box-shadow: 0 0 0 1200px rgba(0,0,0,0.24);
-    z-index: 2;
-}
-.quittance-info__marker {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: -40px;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background: #F08400;
-    color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    line-height: 0;
-}
-.quittance-info__marker::before {
-    content: '';
-    display: block;
-    width: 10px;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 100%;
-}
-.quittance-info__text {
-    position: absolute;
-    left: 0;
-    top: calc(100% + 10px);
-    pointer-events: none;
-    width: max-content;
-    max-width: 400px;
-    background: #005D9F;
-    color: #fff;
-    padding: 4px 10px;
-    transition: .2s;
-    opacity: 0;
-}
-.quittance-info__text--right {
-    left: auto;
-    right: 0;
-}
-.quittance-info:hover .quittance-info__text {
-    opacity: 1;
-}
-.quittance-info--top .quittance-info__marker {
-    left: 50%;
-    top: -40px;
-    transform: translate(-50%, 0);
-}
-.quittance-info--top .quittance-info__marker::before {
-    left: 0;
-    top: 100%;
-    width: 100%;
-    height: 10px;
-}
-.quittance-info--right .quittance-info__marker {
-    left: auto;
-    right: -40px;
-}
-.quittance-info--right .quittance-info__marker::before {
-    left: auto;
-    right: 100%
-}
-
-@media (max-width: 991px) {
-    .quittance-info__marker {
-        left: -24px;
-        width: 20px;
-        height: 20px;
-        font-size: 80%;
-    }
-    .quittance-info--top .quittance-info__marker {
-        top: -24px;
-    }
-    .quittance-info--right .quittance-info__marker {
-        right: -24px;
-    }
-}
-@media (max-width: 570px) {
-    .quittance-info__marker {
-        left: -12px;
-        width: 10px;
-        height: 10px;
-        font-size: 60%;
-    }
-    .quittance-info--top .quittance-info__marker {
-        top: -12px;
-    }
-    .quittance-info--right .quittance-info__marker {
-        right: -12px;
-    }
-}
-
-.quittance--ed-1 {
-    top: 4.5%;
-    left: 7%;
-    width: 80%;
-    height: 2.5%;
-}
-.quittance--ed-2 {
-    top: 8.5%;
-    left: 7%;
-    width: 23%;
-    height: 1.5%;
-}
-.quittance--ed-3 {
-    top: 8.5%;
-    left: 44%;
-    width: 38%;
-    height: 1.5%;
-}
-.quittance--ed-4 {
-    top: 10.1%;
-    left: 7%;
-    width: 32%;
-    height: 2.5%;
-}
-.quittance--ed-5 {
-    top: 15.1%;
-    left: 39%;
-    width: 21%;
-    height: 1.5%;
-}
-.quittance--ed-6 {
-    top: 10%;
-    left: 76%;
-    width: 12%;
-    height: 2.5%;
-}
-.quittance--ed-7 {
-    top: 17.4%;
-    left: 32.3%;
-    width: 15.8%;
-    height: 4.2%;
-}
-.quittance--ed-8 {
-    top: 17.4%;
-    left: 58.3%;
-    width: 6.2%;
-    height: 4.2%;
-}
-.quittance--ed-9 {
-    top: 17.4%;
-    left: 64.2%;
-    width: 7.8%;
-    height: 8.5%;
-}
-.quittance--ed-10 {
-    top: 17.4%;
-    left: 77.2%;
-    width: 5.2%;
-    height: 8.5%;
-}
-.quittance--ed-11 {
-    top: 17.4%;
-    left: 82.2%;
-    width: 4.1%;
-    height: 4.2%;
-}
-.quittance--ed-12 {
-    top: 17.4%;
-    left: 86.2%;
-    width: 6.1%;
-    height: 16.8%;
-}
-.quittance--ed-13 {
-    top: 37.1%;
-    left: 29.7%;
-    width: 20.4%;
-    height: 8.5%;
-}
-.quittance--ed-14 {
-    top: 39.1%;
-    left: 55.7%;
-    width: 4.1%;
-    height: 3.2%;
-}
-.quittance--ed-15 {
-    top: 37.1%;
-    left: 73.7%;
-    width: 13.3%;
-    height: 7.7%;
-}
-.quittance--ed-16 {
-    top: 55.1%;
-    left: 7%;
-    width: 20.3%;
-    height: 6.2%;
-}
-.quittance--ed-17 {
-    top: 55.1%;
-    left: 69%;
-    width: 23.3%;
-    height: 7.2%;
-}
-.quittance--ed-18 {
-    top: 73.3%;
-    left: 84%;
-    width: 8.5%;
-    height: 10.8%;
-}
-.quittance--ed-19 {
-    top: 94.8%;
-    left: 7%;
-    width: 30.5%;
-    height: 1.1%;
-}
-
-.quittance--tko-1 {
-    top: 2.5%;
-    left: 7%;
-    width: 80%;
-    height: 5.5%;
-}
-.quittance--tko-2 {
-    top: 9.5%;
-    left: 7%;
-    width: 32%;
-    height: 2.1%;
-}
-.quittance--tko-3 {
-    top: 13.1%;
-    left: 7%;
-    width: 26%;
-    height: 2.1%;
-}
-.quittance--tko-4 {
-    top: 19.5%;
-    left: 7%;
-    width: 47%;
-    height: 2.1%;
-}
-.quittance--tko-5 {
-    top: 9.5%;
-    left: 57%;
-    width: 30%;
-    height: 6.1%;
-}
-.quittance--tko-6 {
-    top: 49.5%;
-    left: 32%;
-    width: 14%;
-    height: 18.1%;
-}
-.quittance--tko-7 {
-    top: 49.5%;
-    left: 68.8%;
-    width: 22.5%;
-    height: 15.1%;
-}
-.quittance--tko-8 {
-    top: 77.5%;
-    left: 83.8%;
-    width: 6.5%;
-    height: 8.1%;
-}
-
-.quittance--kap-1 {
-    top: 2.5%;
-    left: 7%;
-    width: 65%;
-    height: 9.5%;
-}
-.quittance--kap-2 {
-    top: 16.5%;
-    left: 7%;
-    width: 23%;
-    height: 5.5%;
-}
-.quittance--kap-3 {
-    top: 15.5%;
-    left: 52%;
-    width: 39%;
-    height: 2.9%;
-}
-.quittance--kap-4 {
-    top: 23.5%;
-    left: 27.8%;
-    width: 6%;
-    height: 9.5%;
-}
-.quittance--kap-5 {
-    top: 23.8%;
-    left: 56.2%;
-    width: 9.6%;
-    height: 8.8%;
-}
-.quittance--kap-6 {
-    top: 23.8%;
-    left: 71.8%;
-    width: 9.8%;
-    height: 8.8%;
-}
-.quittance--kap-7 {
-    top: 23.8%;
-    left: 81.5%;
-    width: 10.4%;
-    height: 10.8%;
-}
-.quittance--kap-8 {
-    top: 74.8%;
-    left: 8.4%;
-    width: 8.8%;
-    height: 16.6%;
-}
-.quittance--kap-9 {
-    top: 74.8%;
-    left: 18.4%;
-    width: 8.2%;
-    height: 15%;
-}
-/* End */
-
-
 /* End */
 /* /local/templates/main/assets/css/jquery-ui.min.css?169641449232130 */
 /* /local/templates/main/assets/css/jquery.formstyler.css?16964144922285 */
@@ -15084,9 +14508,9 @@ a.icon-link:hover {
 /* /local/templates/main/assets/css/swiper-bundle.min.css?169641449213934 */
 /* /local/templates/main/assets/css/owl.carousel.min.css?16964144923351 */
 /* /local/templates/main/assets/css/owl.theme.default.min.css?16964144921013 */
-/* /local/templates/main/css/fonts.css?16964144924255 */
-/* /local/templates/main/css/style.css?1705909605181435 */
-/* /local/templates/main/css/resize.css?170307510991998 */
-/* /local/templates/main/css/new.css?170244886210034 */
+/* fonts.css?16964144924255 */
+/* style.css?1705909605181435 */
+/* resize.css?170307510991998 */
+/* new.css?170244886210034 */
 /* /local/templates/main/components/bitrix/news.list/profit_calc/style.css?17020227781398 */
 /* /local/templates/main/components/smcms/form/appointment_to_office/style.css?17031355931728 */

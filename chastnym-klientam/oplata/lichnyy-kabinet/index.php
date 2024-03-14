@@ -16,14 +16,19 @@ $APPLICATION->SetTitle("Личный кабинет");
 <section>
     <div class="block section-pt0">
         <div class="container text-block">
-            <p>В <a target="_blank" rel="noopener" class="outerlink"
-                    href="https://lik.resk.ru/lik/Account/Login?ReturnUrl=%2Flik%2F"><span><u>личном кабинете</u></span><i></i></a>
-                на сайте вы можете оплатить коммунальные услуги, используя карту любого банка, а также при помощи
-                QR-кода по системе быстрых платежей (СБП).</p>
 
-            <p>При оплате онлайн на сайте в личном кабинете, комиссия с клиента НЕ ВЗИМАЕТСЯ, все расходы по проведению
-                платежа несет ПАО «РЭСК».</p>
-
+            <? $APPLICATION->IncludeComponent(
+                "bitrix:main.include",
+                "inc_chastnym_klientam_oplata_lichnyy_kabinet",
+                array(
+                    "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_oplata_lichnyy_kabinet",
+                    "AREA_FILE_SHOW" => "file",
+                    "AREA_FILE_SUFFIX" => "inc",
+                    "EDIT_TEMPLATE" => "page_inc.php",
+                    "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_oplata_lichnyy_kabinet/template.php"
+                ),
+                false);
+            ?>
 
         </div>
     </div>

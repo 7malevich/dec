@@ -6,7 +6,7 @@ $APPLICATION->SetTitle("Ошибка 404 - страница не найдена"
 <style>
     .page-404 {
         margin-top: 3rem;
-        position: fixed;
+        /*position: fixed;*/
         top: 0;
         right: 0;
         bottom: 0;
@@ -15,7 +15,7 @@ $APPLICATION->SetTitle("Ошибка 404 - страница не найдена"
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 100%;
+        height: 70%;
     }
     .page-404__content {
         max-width: 764px;
@@ -116,6 +116,7 @@ $APPLICATION->SetTitle("Ошибка 404 - страница не найдена"
         opacity: 0;
     }
 </style>
+
 <div class="page-404">
     <div class="page-404__content">
         <img class="page-404__title" src="<?= DEFAULT_TEMPLATE_PATH ?>/img/404.png">
@@ -126,3 +127,5 @@ $APPLICATION->SetTitle("Ошибка 404 - страница не найдена"
         </p>
     </div>
 </div>
+
+<? require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

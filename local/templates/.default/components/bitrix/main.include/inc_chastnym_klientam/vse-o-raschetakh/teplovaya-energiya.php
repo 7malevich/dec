@@ -1,4 +1,3 @@
-<!--WORK_AREA_BEGIN-->
 <section id="bx_1949384460_1385">
     <section class="block section-pt0">
         <div class="container text-block">
@@ -45,4 +44,4 @@
             </a>
         </div>
     </section>
-</div><!--WORK_AREA_END-->	
+</div>

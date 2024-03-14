@@ -1,5 +1,5 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Плановые отключения");
 ?>
 <? $APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumbs", array(
@@ -13,4 +13,17 @@ $APPLICATION->SetTitle("Плановые отключения");
         <h1 class="h1-marginBot h1-relative"><?= $APPLICATION->showTitle() ?></h1>
     </div>
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+    <? $APPLICATION->IncludeComponent(
+        "bitrix:main.include",
+        "inc_chastnym_klientam_planovye_otklyucheniya",
+        array(
+            "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_planovye_otklyucheniya",
+            "AREA_FILE_SHOW" => "file",
+            "AREA_FILE_SUFFIX" => "inc",
+            "EDIT_TEMPLATE" => "page_inc.php",
+            "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_planovye_otklyucheniya/template.php"
+        ),
+        false);
+    ?>
+
+<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

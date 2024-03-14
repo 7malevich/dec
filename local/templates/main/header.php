@@ -76,8 +76,9 @@ $APPLICATION->ShowPanel();
 
     // Установка заголовка страницы
     $APPLICATION->SetTitle("Миссия и стратегия");
+
+    CJSCore::Init(array("jquery3"));
     ?>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </head>
 <body class="fixed-menu">

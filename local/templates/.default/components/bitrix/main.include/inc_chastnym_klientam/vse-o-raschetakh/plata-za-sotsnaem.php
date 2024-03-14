@@ -1,4 +1,3 @@
-<!--WORK_AREA_BEGIN-->
 <section id="bx_1949384460_1380">
     <section class="block section-pt0">
         <div class="container text-block">

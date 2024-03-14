@@ -1873,31 +1873,6 @@ $(function() {
 		var block_id = $(this).data('id');
 		$(block_id).addClass('show');
 	});
-
-
-    /* Гид по квитанции */
-    $(document).on('click', '.gid__tab', function (e) {
-        $(this).addClass('active').siblings().removeClass('active');
-        $(this).closest('.gid').find('.gid__page').eq($(this).index()).show().siblings().hide()
-    });
-
-    $(document).on('click', '.marker', function (e) {
-        $(this).siblings('.marker').removeClass('show');
-        $(this).addClass('show');
-        $(this).addClass('visited');
-    });
-
-    $(document).mouseup(function (e){
-        var div = $(".marker");
-        if (!div.is(e.target) && div.has(e.target).length === 0) {
-            div.removeClass('show');
-        }
-    });
-
-    $(document).on('click', '.marker__select', function (e) {
-        $(this).next('.marker').trigger('click');
-    });
-
 })
 
 // создаём элемент <div>, который будем перемещать вместе с указателем мыши пользователя

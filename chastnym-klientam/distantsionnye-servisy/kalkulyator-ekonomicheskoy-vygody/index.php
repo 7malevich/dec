@@ -235,7 +235,7 @@ $APPLICATION->SetTitle("Калькулятор экономической выг
                     </div>
                 </div>
             </section>
-        </div><!--WORK_AREA_END-->
+        </div>
 
         <script type="text/javascript">
             var tarifs = <?php echo json_encode($tarifs); ?>;

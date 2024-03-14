@@ -26,6 +26,8 @@
 
 # исключаем загружаемые файлы
 /upload/
+/local/templates/.default/img/
+/local/templates/main/img/
 
 # различные системные папки и файлы хостингов и операционных систем
 /cgi-bin/
@@ -36,6 +38,7 @@
 .Trashes
 Thumbs.db
 ehthumbs.db
+.idea
 
 # исключаем все текстовые и подобные ресурсы
 *.xml
@@ -71,6 +74,9 @@ ehthumbs.db
 *.psb
 *.sketch
 *.mp4
+*.svg
+*.jpeg
+*.jpg
 core.*
 
 # храним robots.txt
