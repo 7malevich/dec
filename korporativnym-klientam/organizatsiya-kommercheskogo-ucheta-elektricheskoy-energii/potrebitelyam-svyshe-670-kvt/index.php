@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Исполнителям коммунальных услуг");
+$APPLICATION->SetTitle("Потребителям свыше 670 кВт");
 ?>
 <? $APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumbs", array(
     "PATH" => "",
@@ -15,13 +15,13 @@ $APPLICATION->SetTitle("Исполнителям коммунальных усл
 
     <? $APPLICATION->IncludeComponent(
         "bitrix:main.include",
-        "inc_korporativnym_klientam_organizatsiya_ispolnitelyam_kommunalnykh",
+        "inc_korporativnym_klientam_organizatsiya_potrebitelyam_svyshe_670",
         array(
-            "COMPONENT_TEMPLATE" => "inc_korporativnym_klientam_organizatsiya_ispolnitelyam_kommunalnykh",
+            "COMPONENT_TEMPLATE" => "inc_korporativnym_klientam_organizatsiya_potrebitelyam_svyshe_670",
             "AREA_FILE_SHOW" => "file",
             "AREA_FILE_SUFFIX" => "inc",
             "EDIT_TEMPLATE" => "page_inc.php",
-            "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_korporativnym_klientam_organizatsiya_ispolnitelyam_kommunalnykh/template.php"
+            "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_korporativnym_klientam_organizatsiya_potrebitelyam_svyshe_670/template.php"
         ),
         false
     ); ?>
