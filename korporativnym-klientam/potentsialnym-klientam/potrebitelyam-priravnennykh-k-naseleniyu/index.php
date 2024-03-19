@@ -18,7 +18,7 @@ $APPLICATION->SetTitle("Потребителям, приравненных к н
 
             <div class="border-top-bottom border-top-bottom--last" id="bx_3218110189_1499">
                 <a class="link-with-lines"
-                    href="/korporativnym-klientam/distantsionnye-servisy/podacha-zayavleniy-onlayn/">
+                    href="/korporativnym-klientam/distantsionnye-servisy1/podacha-zayavleniy-onlayn/">
                     Конструктор заявления на заключение договора <div class="link-with-lines_arrow"></div>
                 </a>
             </div>
