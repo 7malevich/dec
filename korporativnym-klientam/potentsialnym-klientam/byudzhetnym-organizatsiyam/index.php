@@ -17,7 +17,7 @@ $APPLICATION->SetTitle("Бюджетным организациям");
     <div class="container">
 
         <div class="border-top-bottom border-top-bottom--last" id="bx_3218110189_1495">
-            <a class="link-with-lines" href="/korporativnym-klientam/distantsionnye-servisy/podacha-zayavleniy-onlayn/">
+            <a class="link-with-lines" href="/korporativnym-klientam/distantsionnye-servisy1/podacha-zayavleniy-onlayn/">
                 Конструктор заявления на заключение договора <div class="link-with-lines_arrow"></div>
             </a>
         </div>
