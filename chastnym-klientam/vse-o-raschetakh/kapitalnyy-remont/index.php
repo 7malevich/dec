@@ -1,8 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetTitle("Типовые формы и бланки");
+$APPLICATION->SetTitle("Капитальный ремонт");
 ?>
-
 <? $APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumbs", array(
     "PATH" => "",
     "SITE_ID" => "ru",
@@ -10,20 +9,19 @@ $APPLICATION->SetTitle("Типовые формы и бланки");
 ),
     false
 ); ?>
-
 <div class="container">
     <h1 class="h1-marginBot h1-relative"><?= $APPLICATION->showTitle() ?></h1>
 </div>
 
 <? $APPLICATION->IncludeComponent(
     "bitrix:main.include",
-    "inc_chastnym_klientam_dogovory_tipovye_formy_i_blanki",
+    "inc_chastnym_klientam_vse_o_raschetakh_kapitalnyy_remont",
     array(
-        "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_dogovory_tipovye_formy_i_blanki",
+        "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_vse_o_raschetakh_kapitalnyy_remont",
         "AREA_FILE_SHOW" => "file",
         "AREA_FILE_SUFFIX" => "inc",
         "EDIT_TEMPLATE" => "page_inc.php",
-        "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_dogovory_tipovye_formy_i_blanki/template.php"
+        "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_vse_o_raschetakh_kapitalnyy_remont/template.php"
     ),
     false);
 ?>

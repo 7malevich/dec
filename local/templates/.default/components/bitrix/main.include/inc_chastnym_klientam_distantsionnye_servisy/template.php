@@ -21,7 +21,7 @@ $this->setFrameMode(true);
             <div class="bloks-with-img__item bloks-with-img__big">
                 <h5 class="h5">Оплата</h5>
                 <div class="bloks-with-img__img" style="background-image: url('https://resk.smhost.ru/upload/resize_cache/iblock/05e/07jn1kdbqezgxdbz6i9qhpzwbm5jw809/560_588_1/pay.jpg');"></div>
-                <a href="/chastnym-klientam/distantsionnye-servisy/oplata/"></a>
+                <a href="/chastnym-klientam/oplata/"></a>
             </div>
             <div class="bloks-with-img__wrapper">
                 <div class="bloks-with-img__row">
@@ -111,48 +111,7 @@ $this->setFrameMode(true);
         </div>
     </div>
 </section>
-<section class="block section-pt0">
-    <div class="container">
-        <div class="elements-row">
-            <div class="elements-row__one-third pda-off">
-            </div>
-            <div class="elements-row__two-thirds--ml">
-                <a class="link-with-lines border-top-bottom" href="/chastnym-klientam/distantsionnye-servisy/videokonsultant/">
-                    Видеоконсультант
-                    <div class="link-with-lines_arrow">
-                    </div>
-                </a> <a class="link-with-lines border-top-bottom" href="/chastnym-klientam/distantsionnye-servisy/chat-bot/">
-                    Чат-бот
-                    <div class="link-with-lines_arrow">
-                    </div>
-                </a> <a class="link-with-lines border-top-bottom" href="/chastnym-klientam/distantsionnye-servisy/internet-priemnaya/">
-                    Интернет – приемная
-                    <div class="link-with-lines_arrow">
-                    </div>
-                </a> <a class="link-with-lines border-top-bottom" href="/chastnym-klientam/distantsionnye-servisy/kontaktnyy-tsentr/">
-                    Контактный центр
-                    <div class="link-with-lines_arrow">
-                    </div>
-                </a> <a class="link-with-lines border-top-bottom" href="/chastnym-klientam/distantsionnye-servisy/videozvonok/">
-                    Видеозвонок
-                    <div class="link-with-lines_arrow">
-                    </div>
-                </a>
 
-                <a class="link-with-lines border-top-bottom" href="/chastnym-klientam/distantsionnye-servisy/sotsialnye-seti-i-messendzhery/">
-                    Социальные сети и мессенджеры
-                    <div class="link-with-lines_arrow">
-                    </div>
-                </a>
-                <a class="link-with-lines border-top-bottom" href="/chastnym-klientam/distantsionnye-servisy/zapis-v-ofis/">
-                    Запись в офис
-                    <div class="link-with-lines_arrow">
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
 <section class="block">
     <div class="container">
         <h2 class="h2 color-blue h2-marginBot">Дополнительные дистанционные сервисы</h2>

@@ -1,8 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetTitle("Типовые формы и бланки");
+$APPLICATION->SetTitle("Электронная квитанция");
 ?>
-
 <? $APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumbs", array(
     "PATH" => "",
     "SITE_ID" => "ru",
@@ -17,13 +16,13 @@ $APPLICATION->SetTitle("Типовые формы и бланки");
 
 <? $APPLICATION->IncludeComponent(
     "bitrix:main.include",
-    "inc_chastnym_klientam_dogovory_tipovye_formy_i_blanki",
+    "inc_chastnym_klientam_distantsionnye_servisy_videokonsultant_elektronnaya_kvitantsiya",
     array(
-        "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_dogovory_tipovye_formy_i_blanki",
+        "COMPONENT_TEMPLATE" => "inc_chastnym_klientam_distantsionnye_servisy_videokonsultant_elektronnaya_kvitantsiya",
         "AREA_FILE_SHOW" => "file",
         "AREA_FILE_SUFFIX" => "inc",
         "EDIT_TEMPLATE" => "page_inc.php",
-        "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_dogovory_tipovye_formy_i_blanki/template.php"
+        "PATH" => "/local/templates/.default/components/bitrix/main.include/inc_chastnym_klientam_distantsionnye_servisy_videokonsultant_elektronnaya_kvitantsiya/template.php"
     ),
     false);
 ?>
