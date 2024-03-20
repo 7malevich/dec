@@ -17,11 +17,15 @@ $APPLICATION->SetTitle("Личный кабинет");
 <section id="bx_1949384460_1746">
     <section class="block section-pt0">
         <div class="container text-block">
-            <p>Личный кабинет клиента ПАО &laquo;Красноярскэнергосбыт&raquo; &ndash; это отличная возможность экономить время для оплаты счетов и передачи показаний приборов учета в любой точке мира. Интуитивно понятный интерфейс приложения позволит в пару кликов совершить нужные действия:</p>
+            <p>Личный кабинет клиента ПАО «ДЭК» &ndash; это отличная возможность экономить
+                время для оплаты счетов и передачи показаний приборов учета в любой точке мира. Интуитивно понятный
+                интерфейс приложения позволит в пару кликов совершить нужные действия:</p>
 
         </div>
         </div>
-    </section></section><section id="bx_1949384460_1747">
+    </section>
+</section>
+<section id="bx_1949384460_1747">
     <section class="block section-pt0">
         <div class="container text-block">
             <div class="icon-link-wrapper">
@@ -60,168 +64,338 @@ $APPLICATION->SetTitle("Личный кабинет");
 
             </div>
         </div>
-    </section></section><section id="bx_1949384460_1748">
+    </section>
+</section>
+<section id="bx_1949384460_1748">
     <section class="block section-pt0">
         <div class="container text-block">
 
 
-            <p>Получить единый пароль и логин для регистрации в личном кабинете клиента можно как на сайте, так и в мобильном приложении.</p>
+            <p>Получить единый пароль и логин для регистрации в личном кабинете клиента можно как на сайте, так и в
+                мобильном приложении.</p>
 
-            <p>Для личного кабинета клиента действует единый логин и пароль вне зависимости от способа входа: через сайт или мобильное приложение.</p>
+            <p>Для личного кабинета клиента действует единый логин и пароль вне зависимости от способа входа: через сайт
+                или мобильное приложение.</p>
 
             <p>Если вы забыли пароль, нажмите кнопку &laquo;Забыли пароль?&raquo; и следуйте инструкциям.</p>
 
-            <p>Если вы хотите зарегистрироваться, нажмите кнопку &laquo;Зарегистрироваться&raquo; и следуйте инструкциям.</p>
+            <p>Если вы хотите зарегистрироваться, нажмите кнопку &laquo;Зарегистрироваться&raquo; и следуйте
+                инструкциям.</p>
             <div class="center-button mb--32">
                 <a href="https://krsk-sbit.ru/login" class="button">Перейти в личный кабинет</a>
             </div>
-    </section></section><section id="bx_1949384460_1749">
-    <section class="block section-pt0">
-        <div class="container">
-            <div class="text-block">
-                <h4 class="color-blue text--center">Инструкция по работе в личном кабинете</h4>
-            </div>
-            <div class="spoiler" id="">
-                <div class="spoiler__title spoiler-with-slider">
-                    <div class="h5">Регистрация в личном кабинете</div>
-                </div>
-                <div class="spoiler__content">
-                    <div class="text-block">
+    </section>
+</section>
 
-                        <!-- Инструкция -->
-                        <div class="instruction">
-                            <div class="photogallery-slider">
-                                <div class="photogallery-slider__list">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="instruction-slide">
-                                                <div class="instruction-text">
-                                                    <p>Зайдите на сайт компании <a rel="noopener" class="outerlink"  href="http://krsk-sbit.ru"
-                                                                                   target="_blank">http://krsk-sbit.ru</a><br>
-                                                        Выберите пиктограмму «Личный кабинет» в правом верхнем углу.</p>
-                                                </div>
-                                                <div class="instruction-img"
-                                                     style="background-image: url('/local/templates/main/img/instruction/1.png?ver=1.2')"></div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="instruction-slide">
-                                                <div class="instruction-text">
-                                                    <p>После нажатия откроется окно для авторизации. Если вы уже зарегистрированы, то вводите свои
-                                                        регистрационные данные (почту или номер телефона) и пароль. Если вы не проходили регистрацию
-                                                        ранее, необходимо нажать «Зарегистрироваться».</p>
-                                                </div>
-                                                <div class="instruction-img"
-                                                     style="background-image: url('/local/templates/main/img/instruction/2.png?ver=1.1')"></div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="instruction-slide">
-                                                <div class="instruction-text">
-                                                    <p>Откроется форма регистрации, которую нужно будет заполнить (ФИО, номер лицевого счета, адрес электронной почты, номер телефона, пароль).</p>
-                                                </div>
-                                                <div class="instruction-img"
-                                                     style="background-image: url('/local/templates/main/img/instruction/3.png')"></div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="instruction-slide">
-                                                <div class="instruction-text">
-                                                    <p>Также необходимо выбрать способ активации учетной записи и нажать кнопку «Далее». Выберите удобный для себя способ активации учетной записи: с помощью СМС или e-mail. Обязательно дождитесь кода активации и введите его в соответствующее поле.</p>
-                                                </div>
-                                                <div class="instruction-img"
-                                                     style="background-image: url('/local/templates/main/img/instruction/4.png')"></div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="instruction-slide">
-                                                <div class="instruction-text">
-                                                    <p>В случае, если вы выбрали активацию по номеру телефона, на ваш номер придет код для активации по смс или в мессенджер Viber. Его нужно будет ввести в соответствующее поле для подтверждения регистрации.</p>
-                                                </div>
-                                                <div class="instruction-img"
-                                                     style="background-image: url('/local/templates/main/img/instruction/5.png')"></div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="instruction-slide">
-                                                <div class="instruction-text">
-                                                    <p>После ввода кода подтверждения или подтверждения регистрации в почте, вы сможете перейти в личный кабинет. Для входа в личный кабинет нужно будет ввести адрес электронной почты, на который вы зарегистрировались, либо номер телефона, а также пароль.</p>
-                                                </div>
-                                                <div class="instruction-img"
-                                                     style="background-image: url('/local/templates/main/img/instruction/6.png')"></div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="instruction-slide">
-                                                <div class="instruction-text">
-                                                    <p>Далее, на странице личного кабинета можно <b>подключить лицевой счет</b>, указав номер лицевого счета 12 знаков, фамилию, как указано в платежно документе.</p>
-                                                    <p><i>Для тех, у кого только кап.ремонт, необходимо в поле «Фамилия» писать два слова «Собственник помещения».</i> Подключая несколько счетов, вы можете, для удобства, присвоить им уникальные имена.</p>
-                                                    <p>Также на этой странице  можно изменить учетные данные (номер телефона, адрес электронной почты), сменить пароль, подключить, переименовать  лицевой счет.</p>
-                                                </div>
-                                                <div class="instruction-img"
-                                                     style="background-image: url('/local/templates/main/img/instruction/7.png')"></div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="instruction-slide">
-                                                <div class="instruction-text">
-                                                    <p>Регистрация завершена, теперь можно пользоваться функциями личного кабинета!</p>
-                                                </div>
-                                                <div class="instruction-img"
-                                                     style="background-image: url('/local/templates/main/img/instruction/8.png')"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="photogallery-slider__nav">
-                                        <div class="swiper-button swiper-button_prev-gallery">
-                                            <div class="swiper-button_arrow"></div>
-                                        </div>
-                                        <div class="swiper-pagination-nav"></div>
-                                        <div class="swiper-button swiper-button_next-gallery">
-                                            <div class="swiper-button_arrow"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+<section class="block section-pt0">
+    <div class="container">
+        <div class="text-block">
+            <h4 class="color-blue text--center">Вопросы и ответы о сервисе «Личный кабинет»:</h4>
+        </div>
 
-                    </div>
+        <div class="spoiler" id="">
+            <div class="spoiler__title">
+                <div class="h5">В течение какого времени выполняется загрузка информации по лицевому счету после
+                    регистрации в сервисе «Личный кабинет»?
                 </div>
             </div>
-            <div class="spoiler" id="">
-                <div class="spoiler__title">
-                    <div class="h5">Передача показаний</div>
-                </div>
-                <div class="spoiler__content">
-                    <div class="text-block"></div>
-                </div>
-            </div>
-            <div class="spoiler" id="">
-                <div class="spoiler__title">
-                    <div class="h5">Начисления и оплата</div>
-                </div>
-                <div class="spoiler__content">
-                    <div class="text-block"></div>
-                </div>
-            </div>
-            <div class="spoiler" id="">
-                <div class="spoiler__title">
-                    <div class="h5">Мультисчет</div>
-                </div>
-                <div class="spoiler__content">
-                    <div class="text-block"></div>
-                </div>
-            </div>
-            <div class="spoiler" id="">
-                <div class="spoiler__title">
-                    <div class="h5">Как удалить лицевой счет в личном кабинете</div>
-                </div>
-                <div class="spoiler__content">
-                    <div class="text-block"></div>
+            <div class="spoiler__content">
+                <div class="text-block">
+                    Информация по лицевому счету отражается в сервисе «Личный кабинет» клиента ПАО «ДЭК» сразу же после
+                    прохождения регистрации.
                 </div>
             </div>
         </div>
-    </section>
+
+        <div class="spoiler" id="">
+            <div class="spoiler__title">
+                <div class="h5">Могу ли я в одном Личном кабинете иметь несколько лицевых счетов?</div>
+            </div>
+            <div class="spoiler__content">
+                <div class="text-block">
+                    Да, такая возможность реализована. Для этого нужно воспользоваться функцией «Добавить лицевой счет».
+                    Подробная информация по добавлению лицевого счета представлена в инструкции по использованию сервиса
+                    «Личный кабинет».
+                </div>
+            </div>
+        </div>
+
+        <div class="spoiler" id="">
+            <div class="spoiler__title">
+                <div class="h5">Через сколько дней в Личном кабинете клиента ПАО «ДЭК» отражается произведенная
+                    оплата?
+                </div>
+            </div>
+            <div class="spoiler__content">
+                <div class="text-block">
+                    В сервис «Личный кабинет клиента» оплата загружается ежедневно.
+                </div>
+            </div>
+        </div>
+
+        <div class="spoiler" id="">
+            <div class="spoiler__title">
+                <div class="h5">Когда в сервисе «Личный кабинет» появляются квитанции на оплату?</div>
+            </div>
+            <div class="spoiler__content">
+                <div class="text-block">
+                    Платежные документы загружаются в сервис «Личный кабинет» после окончания отчетного периода
+                    (календарного месяца), т.е. в начале месяца, следующего за отчетным. Возможность получения платежных
+                    документов через сервис «Личный кабинет» появляется у клиентов раньше, чем доставка квитанций на
+                    бумажных носителях через почтовые ящики.
+                </div>
+            </div>
+        </div>
+
+        <div class="spoiler" id="">
+            <div class="spoiler__title">
+                <div class="h5">Можно в сервисе «Личный кабинет» увидеть информацию о сроке истечения межповерочного
+                    интервала прибора учета?
+                </div>
+            </div>
+            <div class="spoiler__content">
+                <div class="text-block">
+                    В Личном кабинете клиента информацию о сроке истечения межповерочного интервала можно увидеть в
+                    разделе «Показания счетчиков». В таблице указан номер прибора учета, предыдущие и текущие показания,
+                    дата предыдущих показаний, а также срок поверки.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block section-pt0">
+    <div class="container">
+        <div class="text-block">
+            <h4 class="color-blue text--center">Вопросы и ответы о мобильном приложении:</h4>
+        </div>
+
+        <div class="spoiler" id="">
+            <div class="spoiler__title">
+                <div class="h5">Для чего может понадобиться перезагрузка мобильного приложения ПАО «ДЭК»?</div>
+            </div>
+            <div class="spoiler__content">
+                <div class="text-block">
+                    <p>Старая версия мобильного приложения ПАО «ДЭК» может стать причиной возникновения ошибок и сбоев в
+                        работе, таких как: передача показаний приборов учета, своевременное получение актуальной
+                        информации и т.п. Решить проблему сможет обновление сервиса, которое осуществляется
+                        автоматически, если только данная опция не отключена. В случае, если обновления отключены, нужно
+                        выполнить перезагрузку вручную. </p>
+                    <p>Перезагрузка способна решить большинство проблем, которые могут возникнуть в работе
+                        интерактивного сервиса. Основные причины, по которым может понадобится такая процедура:</p>
+                    <ul>
+                        <li>«зависание» приложения: невозможно войти в приложение, не выполняются стандартные
+                            действия;
+                        </li>
+                        <li>очень медленная работа программы (задачи выполняются в течение длительного времени);</li>
+                        <li>не осуществляется отправка показаний/обращений. Такая ситуация может возникнуть в том
+                            случае, если прервано соединение с интернетом. Если подключение активно и стабильно, но
+                            проблема с отправкой сохранилась, проблема решается перезагрузкой.
+                        </li>
+                    </ul>
+                    <div class="alert alert-warning" bis_skin_checked="1">
+                        <strong>Важно:</strong> если последующая процедура перезагрузки не приносит результата, причиной
+                        может быть сбой в работе самого гаджета или его операционной системы.
+                    </div>
+                    <p>Обойтись без перезапуска приложения можно, осуществив выключение и включение мобильного
+                        устройства. Это поможет «очистить» систему от ошибок, устранив мелкие ошибки.</p>
+                    <p> Перезапуск сервиса мобильного приложения ПАО «ДЭК» будет зависеть от операционной системы,
+                        которой управляется устройство.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spoiler" id="">
+            <div class="spoiler__title">
+                <div class="h5">Как перезагрузить мобильное приложение ПАО «ДЭК» на iPhone?</div>
+            </div>
+            <div class="spoiler__content">
+                <div class="text-block">
+                    <ol>
+                        <li>
+                            Дважды нажать на кнопку «Домой» (в нижнем углу дисплея);
+                            <div class="m-4 text-center" bis_skin_checked="1"><img
+                                        src="/private_clients/cabinet/iphone_1a.jpg" width="330"
+                                        alt="Дважды нажать кнопку Домой"></div>
+                        </li>
+                        <li>
+                            В открывшемся окне со списком запущенных на iPhone программ, найти вкладку с названием
+                            «мобильное приложение ПАО «ДЭК»;
+                            <div class="m-4 text-center" bis_skin_checked="1"><img
+                                        src="/private_clients/cabinet/iphone_1b.png" width="330"
+                                        alt="найти вкладку с  названием «мобильное приложение ПАО «ДЭК»"></div>
+                        </li>
+                        <li>
+                            Смахнуть окно приложения ПАО «ДЭК» движением пальца по экрану вверх.
+                            <div class="m-4 text-center" bis_skin_checked="1"><img
+                                        src="/private_clients/cabinet/iphone_1c.png" width="330"
+                                        alt="Смахнуть окно приложения"></div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="spoiler" id="">
+            <div class="spoiler__title">
+                <div class="h5">Как перезагрузить мобильное приложение ПАО «ДЭК» на Android?</div>
+            </div>
+            <div class="spoiler__content">
+                <div class="text-block">
+
+                    <p>Чтобы перезагрузить мобильное приложение ПАО «ДЭК» на Android, не обязательно перезапускать
+                        операционную систему и выключать смартфон. Есть два способа. </p>
+                    <p><strong>Первый:</strong></p>
+                    <ol>
+                        <li>
+                            <p>Нажать на сенсорную кнопку, имеющую вид трех горизонтальных полосок и расположенную
+                                под
+                                экраном слева. </p>
+                            <div class="m-4 text-center" bis_skin_checked="1"><img
+                                        src="/private_clients/cabinet/android_1a.png" width="330"
+                                        alt="Нажать на сенсорную кнопку"></div>
+                        </li>
+                        <li>
+                            <p>В открывшемся окне запущенных программ на Android, найти вкладку с названием
+                                «мобильное
+                                приложение ПАО «ДЭК»;</p>
+                            <div class="m-4 text-center" bis_skin_checked="1"><img
+                                        src="/private_clients/cabinet/android_1b.png" width="330"
+                                        alt="найти вкладку с названием"></div>
+                        </li>
+                    </ol>
+
+                    <p>Смахнуть окно приложения ПАО «ДЭК» движением пальца по экрану вверх или вправо.</p>
+                    <p><strong>Второй способ:</strong></p>
+                    <ol>
+                        <li>
+                            <p>Последовательно перейти «Настройки» смартфона — «Диспетчер приложений» — «ДЭК + <em>наименование
+                                    региона</em>)»;</p>
+                            <div class="m-4 text-center" bis_skin_checked="1"><img
+                                        src="/private_clients/cabinet/android_1c.png" width="330"
+                                        alt="Диспетчер приложений"></div>
+                            <div class="m-4 text-center" bis_skin_checked="1"><img
+                                        src="/private_clients/cabinet/android_1d.png" width="330"
+                                        alt="ДЭК + наименование  региона"></div>
+                        </li>
+                        <li>
+                            <p>На открывшейся страничке нажать на кнопку «Остановить»/«Закрыть» (в зависимости от
+                                версии
+                                операционной системы телефона);</p>
+                            <div class="m-4 text-center" bis_skin_checked="1"><img
+                                        src="/private_clients/cabinet/android_1e.png" width="330"
+                                        alt="нажать на  кнопку «Остановить»/«Закрыть»"></div>
+                        </li>
+                        <li>
+                            <p>Подтвердить задачу;</p>
+                        </li>
+                        <li>
+                            <p>Перейти на главный экран и запустить новую сессию мобильного приложения ПАО «ДЭК».</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="spoiler" id="">
+            <div class="spoiler__title">
+                <div class="h5">Как переустановить мобильное приложение ПАО «ДЭК» на iPhone?</div>
+            </div>
+            <div class="spoiler__content">
+                <div class="text-block">
+                    <p>Более действенный способ исправления всех возникших проблем с работой мобильного приложения
+                        ПАО «ДЭК» – переустановка программного продукта. Процедура позволяет получить самую новую
+                        версию программы, в которой разработчики устранили самые частые проблемы и добавили новые
+                        возможности. Процесс установки обновлений приложения для продукции компании Apple:</p>
+                    <ol>
+                        <li>
+                            <p>Перейти на страничку App Store;</p>
+                            <div class="m-4 text-center" bis_skin_checked="1"><img
+                                        src="/private_clients/cabinet/iphone_2a.png" width="330"
+                                        alt="Перейти на страничку App Store"></div>
+                        </li>
+                        <li>
+                            <p>Нажмите значок профиля в верхней части экрана;</p>
+                            <div class="m-4 text-center" bis_skin_checked="1"><img
+                                        src="/private_clients/cabinet/iphone_2b.png" width="330"
+                                        alt="Нажмите значок профиля"></div>
+                        </li>
+                        <li>
+                            <p>В списке программ, для которых доступны новые прошивки, выбрать мобильное приложение
+                                ПАО
+                                «ДЭК»;</p>
+                            <div class="m-4 text-center" bis_skin_checked="1"><img
+                                        src="/private_clients/cabinet/iphone_2c.png" width="330"
+                                        alt="выбрать мобильное приложение ПАО «ДЭК»"></div>
+                        </li>
+                        <li>
+                            <p>Нажмите кнопку «Обновить».</p>
+                        </li>
+                        <p>После запуска новой сессии сервиса для общения, приложение будет работать в новой версии.</p>
+                        <div class="alert alert-info" bis_skin_checked="1">Важно: если места на гаджете недостаточно для
+                            установки приложения, система предложит удалить некоторые программы, выведя их на экран
+                            отдельным списком. Освободить место можно также, удалив некоторые медиафайлы. При этом файлы
+                            достаточно перенести в облачное хранилище.
+                        </div>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="spoiler" id="">
+            <div class="spoiler__title">
+                <div class="h5">Как переустановить мобильное приложение ПАО «ДЭК» на Android?</div>
+            </div>
+            <div class="spoiler__content">
+                <div class="text-block">
+                    <p>Более действенный способ исправления всех возникших проблем с работой мобильного приложения
+                        ПАО «ДЭК» – переустановка программного продукта. Процедура позволяет получить самую новую
+                        версию программы, в которой разработчики устранили самые частые проблемы и добавили новые
+                        возможности. Чтобы перезагрузить мобильное приложение ПАО «ДЭК» на Android, необходимо: </p>
+                    <ol>
+                        <li>
+                            <p>Перейти в виртуальный магазин Google Play Market;</p>
+                            <div class="m-4 text-center" bis_skin_checked="1"><img
+                                        src="/private_clients/cabinet/android_2a.png" width="330"
+                                        alt="Перейти в Google Play Market"></div>
+                        </li>
+                        <li>
+                            <p>Ввести в поисковую строку название мобильного приложения ПАО «ДЭК» (ключевое слово:
+                                ДЭК);</p>
+                            <div class="m-4 text-center" bis_skin_checked="1"><img
+                                        src="/private_clients/cabinet/android_2b.png" width="330"
+                                        alt="Ввести название мобильного приложения"></div>
+                        </li>
+                        <li>
+                            <p>Если для приложения будут доступны обновления – то вместо кнопки «Открыть» будет
+                                доступна
+                                кнопка «Обновить» - выбрать задачу – установка доступных обновлений.</p>
+                            <div class="m-4 text-center" bis_skin_checked="1"><img
+                                        src="/private_clients/cabinet/android_2c.png" width="330"
+                                        alt="кнопка Открыть или Обновить"></div>
+                        </li>
+                    </ol>
+                    <div class="alert alert-info" bis_skin_checked="1">Важно: если места на гаджете недостаточно для
+                        установки приложения, система предложит удалить некоторые программы, выведя их на экран
+                        отдельным списком. Освободить место можно также, удалив некоторые медиафайлы. При этом файлы
+                        достаточно перенести в облачное хранилище.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="spoiler" id="">
+            <div class="spoiler__title">
+                <div class="h5">Как подключить мобильное приложение ПАО «ДЭК» на другой телефон?</div>
+            </div>
+            <div class="spoiler__content">
+                <div class="text-block">
+                    В случае использования приложения в другом гаджете необходимость прохождения процедуры получения учетной записи и подключения лицевых счетов отсутствует. После установки приложения на другое устройство необходимо произвести вход под имеющейся у пользователя учетной записью и получить доступ к ранее зарегистрированным лицевым счетам.
+                </div>
+            </div>
+        </div>
+
+    </div>
 </section>
 
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

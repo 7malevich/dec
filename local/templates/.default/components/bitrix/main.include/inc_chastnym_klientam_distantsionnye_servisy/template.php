@@ -28,7 +28,7 @@ $this->setFrameMode(true);
                     <div class="bloks-with-img__item bloks-with-img__small">
                         <h5 class="h5">Передача показаний</h5>
                         <div class="bloks-with-img__img" style="background-image: url('https://resk.smhost.ru/upload/resize_cache/medialibrary/7e2/374_240_1/ol69cw20lyd85sdpo2sfj8cnn0i3vnwd.png');"></div>
-                        <a href="/chastnym-klientam/distantsionnye-servisy/peredacha-pokazaniy-132/"></a>
+                        <a href="/chastnym-klientam/peredacha-pokazaniy/"></a>
                     </div>
                     <div class="bloks-with-img__item bloks-with-img__small">
                         <h5 class="h5">Личный кабинет</h5>
@@ -122,7 +122,7 @@ $this->setFrameMode(true);
             <a class="link-with-lines" href="/chastnym-klientam/distantsionnye-servisy/kalkulyator-ekonomicheskoy-vygody/">
                 Калькулятор экономической выгоды                <div class="link-with-lines_arrow"></div>
             </a>
-            <a class="link-with-lines" href="/chastnym-klientam/distantsionnye-servisy/internet-magazin/">
+            <a class="link-with-lines" href="/company/deyatelnost/dopolnitelnye-uslugi/">
                 Интернет - магазин                <div class="link-with-lines_arrow"></div>
             </a>
             <a class="link-with-lines" href="/chastnym-klientam/distantsionnye-servisy/poisk-vkhodyashchego-dokumenta/">

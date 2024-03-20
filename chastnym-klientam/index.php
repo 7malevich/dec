@@ -32,7 +32,7 @@ $APPLICATION->SetTitle("Частным клиентам");
         </div>
         <div class="banners-slider swiper-container-initialized swiper-container-horizontal">
             <div class="swiper-wrapper banners-block">
-                <a href="#" class="swiper-slide swiper-slide-active" id="bx_565502798_643" style="width: 240.75px; margin-right: 60px;">
+                <a href="/chastnym-klientam/distantsionnye-servisy/mobilnoe-prilozhenie/" class="swiper-slide swiper-slide-active" id="bx_565502798_643" style="width: 240.75px; margin-right: 60px;">
                     <div class="banners-block__item elements-row__quarter">
                         <div class="h5">
                             Мобильное приложение
@@ -40,7 +40,8 @@ $APPLICATION->SetTitle("Частным клиентам");
                         <div class="banners-block__ico" style="background-image:url('https://resk.smhost.ru/upload/medialibrary/54d/k7v4wkvkkyxpopv9zimc2gdc91xcq2gl.png')">
                         </div>
                     </div>
-                </a> <a href="#" class="swiper-slide swiper-slide-next" id="bx_565502798_644" style="width: 240.75px; margin-right: 60px;">
+                </a>
+                <a href="/chastnym-klientam/distantsionnye-servisy/internet-priyemnaya/" class="swiper-slide swiper-slide-next" id="bx_565502798_644" style="width: 240.75px; margin-right: 60px;">
                     <div class="banners-block__item elements-row__quarter">
                         <div class="h5">
                             Интернет-приемная
@@ -48,7 +49,8 @@ $APPLICATION->SetTitle("Частным клиентам");
                         <div class="banners-block__ico" style="background-image:url('https://resk.smhost.ru/upload/medialibrary/6bb/tm93vi25ekke6v75wsxd9hunou8yqbs8.png')">
                         </div>
                     </div>
-                </a> <a href="#" class="swiper-slide" id="bx_565502798_645" style="width: 240.75px; margin-right: 60px;">
+                </a>
+                <a href="/chastnym-klientam/distantsionnye-servisy/lichnyy-kabinet/" class="swiper-slide" id="bx_565502798_645" style="width: 240.75px; margin-right: 60px;">
                     <div class="banners-block__item elements-row__quarter">
                         <div class="h5">
                             Личный кабинет
@@ -56,7 +58,8 @@ $APPLICATION->SetTitle("Частным клиентам");
                         <div class="banners-block__ico" style="background-image:url('https://resk.smhost.ru/upload/medialibrary/bed/ty89kn3ptbdmvnavxnz9rdatvef7tys4.png')">
                         </div>
                     </div>
-                </a> <a href="#" class="swiper-slide" id="bx_565502798_646" style="width: 240.75px; margin-right: 60px;">
+                </a>
+                <a href="#" class="swiper-slide" id="bx_565502798_646" style="width: 240.75px; margin-right: 60px;">
                     <div class="banners-block__item elements-row__quarter">
                         <div class="h5">
                             Онлайн-заказ услуг
@@ -76,6 +79,7 @@ $APPLICATION->SetTitle("Частным клиентам");
         </a>
     </div>
 </section>
+
 <section class="block section-pb0">
     <div class="container">
         <h2 class="color-blue h2-marginBot">Передача показаний</h2>
@@ -100,6 +104,7 @@ $APPLICATION->SetTitle("Частным клиентам");
         </div>
     </div>
 </section>
+
 <section class="block block_gray">
     <div class="container">
         <h2 class="color-blue h2-marginBot">Оплата</h2>
@@ -127,6 +132,7 @@ $APPLICATION->SetTitle("Частным клиентам");
         </div>
     </div>
 </section>
+
 <section class="block">
     <div class="container">
         <h2 class="color-blue h2-marginBot">Приборы учета</h2>
@@ -142,14 +148,12 @@ $APPLICATION->SetTitle("Частным клиентам");
                 </div>
             </div>
             <div class="elements-row__two-thirds--ml">
-<<<<<<< HEAD
                 <p>После 1 января 2022 года, гарантирующими поставщиками и сетевыми организациями должно быть обеспечено
                     безвозмездное предоставление минимального набора функций интеллектуальных систем учета электрической
                     энергии (мощности).</p>
                 <p>При этом потребитель обязан допустить представителей гарантирующего поставщика или сетевой
                     организации в помещение для выполнения мероприятий для организации учета электрической энергии.</p>
                 <a class="button button_mtb" href="/chastnym-klientam/pribory-uchyeta/">
-=======
                 <p>После 1 января 2022 года, гарантирующими поставщиками и сетевыми организациями должно быть обеспечено безвозмездное предоставление минимального набора функций интеллектуальных систем учета электрической энергии (мощности).</p>
                 <p>При этом потребитель обязан допустить представителей гарантирующего поставщика или сетевой организации в помещение для выполнения мероприятий для организации учета электрической энергии.</p>
                 <a class="button button_mtb" href="/chastnym-klientam/pribory-ucheta/">
@@ -181,4 +185,5 @@ $APPLICATION->SetTitle("Частным клиентам");
         </div>
     </div>
 </section>
+
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

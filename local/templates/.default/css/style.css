@@ -15055,7 +15055,22 @@ a.icon-link:hover {
     height: 15%;
 }
 /* End */
-
+.card-body__qr .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+.card-body__qr img{
+    height: auto;
+}
+.card-body__qr{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
 
 /* End */
 /* /local/templates/main/assets/css/jquery-ui.min.css?169641449232130 */

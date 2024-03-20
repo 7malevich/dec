@@ -35,8 +35,8 @@ $APPLICATION->SetTitle("Гид по квитанции");
 
                 <div class="gid__page" style="display:block;">
                     <div class="quittance">
-                        <img src="/upload/gid/ed.jpg" alt="">
-                        <img src="/upload/gid/ed-obrat.jpg" alt="">
+                        <img src="/local/templates/main/img/ed.jpg" alt="">
+                        <img src="/local/templates/main/img/ed-obrat.jpg" alt="">
                         <div class="quittance-info quittance--ed-1">
                             <div class="quittance-info__marker">
                                 1
@@ -197,7 +197,7 @@ $APPLICATION->SetTitle("Гид по квитанции");
 
                 <div class="gid__page">
                     <div class="quittance">
-                        <img src="/upload/gid/tko2.jpg" alt="">
+                        <img src="/local/templates/main/img/tko2.jpg" alt="">
                         <div class="quittance-info quittance--tko-1">
                             <div class="quittance-info__marker">
                                 1
@@ -267,7 +267,7 @@ $APPLICATION->SetTitle("Гид по квитанции");
 
                 <div class="gid__page">
                     <div class="quittance">
-                        <img src="/upload/gid/kap.jpg" alt="">
+                        <img src="/local/templates/main/img/kap.jpg" alt="">
                         <div class="quittance-info quittance--kap-1">
                             <div class="quittance-info__marker">
                                 1

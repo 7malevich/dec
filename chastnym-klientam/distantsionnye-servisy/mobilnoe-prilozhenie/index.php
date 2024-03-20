@@ -77,10 +77,20 @@ $APPLICATION->SetTitle("Мобильное приложение");
                     </p>
                 </li>
             </ol>
+            <div class="card-body__qr">
+                <div class="card-body d-flex">
+                    <strong>Мобильное приложение <br> (IOS)</strong>
+                    <img width="256" alt="mobile_resk.png" src="https://www.dvec.ru/amursbyt/private_clients/cabinet/lkamur_qr_appstore.svg" height="256" title="mobile_resk.png" align="lesft">
+                </div>
+                <div class="card-body d-flex">
+                    <strong>Мобильное приложение <br> (Android)</strong>
+                    <img width="256" alt="mobile_resk.png" src="https://www.dvec.ru/amursbyt/private_clients/cabinet/lkamur_qr_google.svg" height="256" title="mobile_resk.png" align="lseft">
+                </div>
+
+            </div>
             <p>
-                <img width="256" alt="mobile_resk.png"
-                     src="/upload/medialibrary/05a/4fntubzwtvc31wwc8ruj8vb2yqujd0j0/mobile_resk.png" height="256"
-                     title="mobile_resk.png" align="left">Шаг 1. Наведите камеру телефона на QR-код или скачайте
+
+                Шаг 1. Наведите камеру телефона на QR-код или скачайте
                 приложение по <a target="_blank" rel="noopener" class="outerlink"
                                  href="https://disk.yandex.ru/d/T4CQq916vGA1KQ"><u>ссылке</u></a>. <br>
                 Шаг 2. Скачайте файл для установки в формате apk. При необходимости подтвердите загрузку. <br>
