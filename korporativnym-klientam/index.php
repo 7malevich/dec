@@ -14,13 +14,92 @@ $APPLICATION->SetTitle("Корпоративным клиентам");
     <h1 class="h1-marginBot h1-relative"><?= $APPLICATION->showTitle() ?></h1>
 </div>
 
+
 <div>
     <section class="block block_overflow-hidden section-pt0">
         <div class="container">
             <div class="h2 color-blue h2-marginBot">Дистанционные сервисы</div>
+            
             <div class="banners-slider swiper-container-initialized swiper-container-horizontal">
                 <div class="swiper-wrapper banners-block">
-                    <a href="distantsionnye-servisy1/lichnyy-kabinet/" class="swiper-slide swiper-slide-active" id="bx_565502798_643" style="width: 240.75px; margin-right: 60px;">
+
+                <?$APPLICATION->IncludeComponent(
+	"bitrix:news.list", 
+	"legislation", 
+	array(
+		"COMPONENT_TEMPLATE" => "legislation",
+		"IBLOCK_TYPE" => "korporativnym",
+		"IBLOCK_ID" => "273",
+        "PARENT_SECTION" => "2059",
+        "PARENT_SECTION_CODE" => "",
+		"NEWS_COUNT" => "20",
+		"SORT_BY1" => "SORT",
+		"SORT_ORDER1" => "DESC",
+		"SORT_BY2" => "SORT",
+		"SORT_ORDER2" => "DESC",
+		"FILTER_NAME" => "",
+		"FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"PROPERTY_CODE" => array(
+			0 => "",
+			1 => "LINK_SECRTION",
+			2 => "",
+		),
+		"CHECK_DATES" => "Y",
+		"TEMPLATE_THEME" => "blue",
+		"DETAIL_URL" => "",
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"CACHE_TYPE" => "A",
+		"CACHE_TIME" => "36000000",
+		"CACHE_FILTER" => "N",
+		"CACHE_GROUPS" => "Y",
+		"PREVIEW_TRUNCATE_LEN" => "",
+		"ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"SET_TITLE" => "N",
+		"SET_BROWSER_TITLE" => "Y",
+		"SET_META_KEYWORDS" => "Y",
+		"SET_META_DESCRIPTION" => "Y",
+		"SET_LAST_MODIFIED" => "N",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
+		"ADD_SECTIONS_CHAIN" => "Y",
+		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
+		"INCLUDE_SUBSECTIONS" => "Y",
+		"STRICT_SECTION_CHECK" => "N",
+		"DISPLAY_DATE" => "Y",
+		"DISPLAY_NAME" => "Y",
+		"DISPLAY_PICTURE" => "Y",
+		"DISPLAY_PREVIEW_TEXT" => "Y",
+		"MEDIA_PROPERTY" => "",
+		"SLIDER_PROPERTY" => "",
+		"SEARCH_PAGE" => "/search/",
+		"USE_RATING" => "N",
+		"USE_SHARE" => "N",
+		"PAGER_TEMPLATE" => ".default",
+		"DISPLAY_TOP_PAGER" => "N",
+		"DISPLAY_BOTTOM_PAGER" => "Y",
+		"PAGER_TITLE" => "Новости",
+		"PAGER_SHOW_ALWAYS" => "N",
+		"PAGER_DESC_NUMBERING" => "N",
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+		"PAGER_SHOW_ALL" => "N",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"SET_STATUS_404" => "N",
+		"SHOW_404" => "N",
+		"MESSAGE_404" => "",
+		"PROP_NAME_273" => "0",
+		"PROP_REQUISITES_273" => "0",
+		"PROP_DESCRIPTION_273" => "0"
+	),
+	false
+);?> 
+
+                    <!-- <a href="distantsionnye-servisy1/lichnyy-kabinet/" class="swiper-slide swiper-slide-active" id="bx_565502798_643" style="width: 240.75px; margin-right: 60px;">
                         <div class="banners-block__item elements-row__quarter">
                             <div class="h5">
                                 Интернет-приемная
@@ -51,9 +130,11 @@ $APPLICATION->SetTitle("Корпоративным клиентам");
                             </div>
                             <div class="banners-block__ico" style="background-image:url('https://resk.smhost.ru/upload/medialibrary/32d/uxs4yak8x8fk4b6p8fugnq6wp38ptri2.png')"></div>
                         </div>
-                    </a>
+                    </a> -->
+
                 </div>
-                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            </div>
         </div>
     </section>
     <section class="block block_gray">
