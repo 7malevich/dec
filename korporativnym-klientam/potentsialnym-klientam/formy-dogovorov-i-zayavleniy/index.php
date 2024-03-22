@@ -12,58 +12,93 @@ $APPLICATION->SetTitle("Формы договоров и заявлений");
 <div class="container">
     <h1 class="h1-marginBot h1-relative"><?= $APPLICATION->showTitle() ?></h1>
 </div>
+
+
 <section class="section-mt-2">
     <div class="container">
-        <div class="spoiler" id="bx_3218110189_823">
+        <div class="spoiler">
             <div class="spoiler__title">
                 <div class="h5">
-                    Типовой договор энергоснабжения                </div>
+                    Типовой договор энергоснабжения
+                </div>
             </div>
             <div class="spoiler__content" style="display: none;">
-                <div class="file-download-list">
-                    <div class="text-block">
-                    </div>
-                    <a href="/upload/iblock/1b9/wh42ew3s0nff0ihpvshybnrykooyjz6y/tde_yip21.docx" class="file-download ">
-                        <div class="h6">
-                            Форма договора энергоснабжения для ЮЛ-ИП (юридические лица, индивидуальные предприниматели)                        </div>
-                        <div class="c2">
-                            docx, 81 кб                        </div>
-                    </a>
-                    <a href="/upload/iblock/aa9/oqm3tq26jrbzi3n2zyafmf6fq3behj9x/tde_gos21.docx" class="file-download ">
-                        <div class="h6">
-                            Форма государственного (муниципального) контракта поставки электрической энергии                        </div>
-                        <div class="c2">
-                            docx, 87 кб                        </div>
-                    </a>
-                    <a href="/upload/iblock/2da/arkn67aknrzxbd5yd5rzx8zo2oiqz55q/tde_iku21.docx" class="file-download ">
-                        <div class="h6">
-                            Форма договора энергоснабжения для ИКУ (исполнители коммунальных услуг)                        </div>
-                        <div class="c2">
-                            docx, 89 кб                        </div>
-                    </a>
-                    <a href="/upload/iblock/036/o6961wryk8u6z8ss5uuohst7cedc7tsi/tde_21p1.xlsx" class="file-download ">
-                        <div class="h6">
-                            Форма приложения № 1 к договору энергоснабжения                        </div>
-                        <div class="c2">
-                            xlsx, 15 кб                        </div>
-                    </a>
-                    <a href="/upload/iblock/1a2/pem55sbql6hit5fcfjow2rcx3i9gtb52/tde_21p2_7.docx" class="file-download ">
-                        <div class="h6">
-                            Форма приложений №№ 2-7 к договору энергоснабжения                        </div>
-                        <div class="c2">
-                            docx, 76 кб                        </div>
-                    </a>
-                    <a href="/upload/iblock/e1f/en061b0eevdjbuvy623qcoffygjirhk0/tde_iku21p2_10.doc" class="file-download ">
-                        <div class="h6">
-                            Форма приложений №№2-10 к договору энергоснабжения для ИКУ                        </div>
-                        <div class="c2">
-                            doc, 317 кб                        </div>
-                    </a>
-                </div>
-
+                <?/*$APPLICATION->IncludeComponent(
+	"bitrix:news.list", 
+	"legislation", 
+	array(
+		"COMPONENT_TEMPLATE" => "legislation",
+		"IBLOCK_TYPE" => "Main",
+		"IBLOCK_ID" => "264",
+		"NEWS_COUNT" => "20",
+		"SORT_BY1" => "ACTIVE_FROM",
+		"SORT_ORDER1" => "DESC",
+		"SORT_BY2" => "SORT",
+		"SORT_ORDER2" => "ASC",
+		"FILTER_NAME" => "",
+		"FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"PROPERTY_CODE" => array(
+			0 => "",
+			1 => "Файл документа",
+			2 => "",
+		),
+		"CHECK_DATES" => "Y",
+		"TEMPLATE_THEME" => "blue",
+		"DETAIL_URL" => "",
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"CACHE_TYPE" => "A",
+		"CACHE_TIME" => "36000000",
+		"CACHE_FILTER" => "N",
+		"CACHE_GROUPS" => "Y",
+		"PREVIEW_TRUNCATE_LEN" => "",
+		"ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"SET_TITLE" => "N",
+		"SET_BROWSER_TITLE" => "Y",
+		"SET_META_KEYWORDS" => "Y",
+		"SET_META_DESCRIPTION" => "Y",
+		"SET_LAST_MODIFIED" => "N",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
+		"ADD_SECTIONS_CHAIN" => "Y",
+		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
+		"PARENT_SECTION" => "",
+		"PARENT_SECTION_CODE" => "",
+		"INCLUDE_SUBSECTIONS" => "Y",
+		"STRICT_SECTION_CHECK" => "N",
+		"DISPLAY_DATE" => "Y",
+		"DISPLAY_NAME" => "Y",
+		"DISPLAY_PICTURE" => "Y",
+		"DISPLAY_PREVIEW_TEXT" => "Y",
+		"MEDIA_PROPERTY" => "",
+		"SLIDER_PROPERTY" => "",
+		"SEARCH_PAGE" => "/search/",
+		"USE_RATING" => "N",
+		"USE_SHARE" => "N",
+		"PAGER_TEMPLATE" => ".default",
+		"DISPLAY_TOP_PAGER" => "N",
+		"DISPLAY_BOTTOM_PAGER" => "Y",
+		"PAGER_TITLE" => "Новости",
+		"PAGER_SHOW_ALWAYS" => "N",
+		"PAGER_DESC_NUMBERING" => "N",
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+		"PAGER_SHOW_ALL" => "N",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"SET_STATUS_404" => "N",
+		"SHOW_404" => "N",
+		"MESSAGE_404" => ""
+	),
+	false
+);*/?>
             </div>
         </div>
-        <div class="spoiler" id="bx_3218110189_824">
+
+        <div class="spoiler">
             <div class="spoiler__title">
                 <div class="h5">
                     Типовой договор купли-продажи                </div>
@@ -106,7 +141,8 @@ $APPLICATION->SetTitle("Формы договоров и заявлений");
 
             </div>
         </div>
-        <div class="spoiler" id="bx_3218110189_825">
+
+        <div class="spoiler">
             <div class="spoiler__title">
                 <div class="h5">
                     Типовой договор купли-продажи для объектов микрогенерации                </div>

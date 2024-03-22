@@ -1,0 +1,88 @@
+
+.legislation {
+	position: relative;
+}
+
+.legislation .legislation-subsection-header,
+.legislation .legislation-elements-header {
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 20px 0 0 -20px;
+	background: #757575;
+	color:#fff;
+	font-size:18px;
+	font-weight:200;
+	line-height:1;
+}
+
+.legislation .legislation-section,
+.legislation .legislation-subsection {
+	margin:20px 0;
+}
+
+.legislation .legislation-content{
+	font-size:14px;
+	color:#757575;
+	font-weight:400;
+	line-height: 1;
+}
+.legislation .legislation-header {
+	display:inline-block;
+	padding: 10px 20px;
+	margin: 0 0 10px -20px ;
+	background: #2196f3;
+	color:#fff;
+	font-size: 18px;
+	line-height: 1;
+	font-weight: 200;
+	text-transform: none;
+}
+.legislation .legislation-requisites,
+.legislation .legislation-paragraph {
+	font-size: 14px;
+	color: #757575;
+	font-weight: 400;
+	line-height: 1;
+	padding: 0;
+}
+.legislation .legislation-paragraph {
+	margin: 5px 0;
+	color: #212121;
+}
+.legislation .legislation-relations {
+	display: block;
+	line-height: 1.5;
+}
+.legislation .legislation-subsection a {
+	display: inline-block;
+	position: relative;
+	margin: 0 0 20px -20px;
+	padding:10px 20px;
+	background: #2196f3;
+	color:#fff;
+	font-size:18px;
+	font-weight:200;
+}
+
+.legislation .legislation-relations a {
+	color:#2196f3;
+	text-decoration: underline;
+	padding:5px 0;
+	display: inline-block;
+}
+.legislation .legislation-relations a:before {
+
+}
+.legislation .legislation-relations-sections a {
+	color:#757575;
+}
+.legislation .legislation-relations a:hover,
+.legislation .legislation-relations a:focus {
+	color:#1976d2;
+}
+.legislation .legislation-relations a:active {
+	color:#212121;
+}
+.legislation .legislation-link-changed {
+	color:#bdbdbd;
+}
